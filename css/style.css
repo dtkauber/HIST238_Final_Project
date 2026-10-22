@@ -242,6 +242,23 @@ section.parchment.page-section {
   padding: 48px clamp(20px, 5vw, 64px);
 }
 
+/* Introduction: indented, justified paragraphs like a printed book */
+.intro-text p {
+  text-indent: 2em;
+  text-align: justify;
+  hyphens: auto;
+  margin: 0 0 0.9em;
+}
+.intro-text p:first-child { text-indent: 0; }
+.intro-text p:first-child::first-letter {
+  font-family: var(--font-caps);
+  float: left;
+  font-size: 3.4em;
+  line-height: 0.85;
+  padding: 6px 8px 0 0;
+  color: var(--ink-red);
+}
+
 /* ---------- Timeline ---------- */
 .timeline-wrap {
   padding: 24px 24px 12px;
