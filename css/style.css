@@ -1,0 +1,572 @@
+/* =========================================================
+   The Journal of William Hutchinson — stylesheet
+   Colours, fonts and textures are all set as variables below
+   so the look can be tuned in one place.
+   ========================================================= */
+
+:root {
+  /* Paper */
+  --paper:        #f2e3bf;
+  --paper-light:  #f8edd3;
+  --paper-dark:   #dcc08a;
+  --paper-edge:   rgba(110, 72, 28, 0.55);
+
+  /* Ink */
+  --ink:          #2b1d10;   /* iron-gall brown-black */
+  --ink-faded:    #5a4330;
+  --ink-red:      #7a1f14;   /* rubrication / headings */
+  --rule:         rgba(90, 60, 30, 0.35);
+
+  /* Desk / background */
+  --wood-1:       #2a1a0f;
+  --wood-2:       #3a2416;
+  --wood-3:       #22150c;
+
+  /* Wax seal */
+  --wax:          #8b1c1c;
+  --wax-dark:     #5e0f0f;
+
+  /* Type */
+  --font-print:   'IM Fell English', 'Georgia', serif;
+  --font-caps:    'IM Fell English SC', 'Georgia', serif;
+  --font-diary:   'IM Fell DW Pica', 'Georgia', serif;
+  --font-script:  'Pinyon Script', 'Brush Script MT', cursive;
+
+  /* Paper grain (SVG noise) */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.42 0 0 0 0 0.29 0 0 0 0 0.12 0 0 0 0.22 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-print);
+  font-size: 18px;
+  line-height: 1.6;
+  /* Dark walnut writing desk */
+  background-color: var(--wood-1);
+  background-image:
+    var(--grain),
+    repeating-linear-gradient(92deg,
+      rgba(0,0,0,0.00) 0px, rgba(0,0,0,0.10) 3px,
+      rgba(255,255,255,0.02) 7px, rgba(0,0,0,0.00) 12px),
+    linear-gradient(180deg, var(--wood-2), var(--wood-1) 40%, var(--wood-3));
+  background-attachment: fixed;
+}
+
+a { color: var(--ink-red); }
+a:hover { color: var(--ink); }
+
+/* ---------- Parchment surface (reusable) ---------- */
+.parchment {
+  position: relative;
+  background-color: var(--paper);
+  background-image:
+    var(--grain),
+    radial-gradient(ellipse at 30% 20%, var(--paper-light) 0%, transparent 60%),
+    radial-gradient(ellipse at center, var(--paper) 40%, var(--paper-dark) 100%);
+  box-shadow:
+    inset 0 0 70px var(--paper-edge),   /* darkened, aged edges */
+    0 10px 30px rgba(0, 0, 0, 0.55);    /* lift off the desk */
+  border-radius: 2px;
+}
+
+/* Faint foxing spots */
+.parchment::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 85% 12%, rgba(140, 90, 30, 0.12) 0 18px, transparent 40px),
+    radial-gradient(circle at 10% 80%, rgba(140, 90, 30, 0.10) 0 12px, transparent 30px),
+    radial-gradient(circle at 70% 90%, rgba(140, 90, 30, 0.08) 0 25px, transparent 55px);
+}
+
+.parchment > * { position: relative; }
+
+/* ---------- Shared text pieces ---------- */
+.smallcaps { font-family: var(--font-caps); }
+
+.placeholder {
+  font-family: var(--font-print);
+  font-style: italic;
+  color: var(--ink-faded);
+  border: 1px dashed var(--rule);
+  padding: 0.8em 1em;
+  margin: 0.8em 0;
+  background: rgba(255, 250, 235, 0.35);
+}
+
+.ornament {
+  text-align: center;
+  color: var(--ink-red);
+  font-size: 1.4rem;
+  letter-spacing: 0.4em;
+  margin: 0.2em 0 1em;
+}
+
+.rule-double {
+  height: 6px;
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  margin: 1.2em auto;
+  width: 70%;
+}
+
+.section-title {
+  font-family: var(--font-caps);
+  font-weight: normal;
+  font-size: 2.2rem;
+  text-align: center;
+  color: var(--ink-red);
+  margin: 0 0 0.2em;
+  letter-spacing: 0.05em;
+}
+.section-title.on-dark {
+  color: var(--paper);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  margin-bottom: 0.8em;
+}
+
+.subsection-title {
+  font-family: var(--font-caps);
+  font-weight: normal;
+  font-size: 1.4rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.2em;
+  margin-top: 1.6em;
+}
+
+/* ---------- Title page ---------- */
+.title-page {
+  max-width: 760px;
+  margin: 48px auto 24px;
+  padding: 56px 40px;
+  text-align: center;
+}
+.title-frame {
+  border: 3px double var(--ink);
+  outline: 1px solid var(--ink);
+  outline-offset: 6px;
+  padding: 40px 28px;
+}
+.title-small {
+  font-family: var(--font-print);
+  font-style: italic;
+  font-size: 1.3rem;
+  margin: 0.2em 0;
+}
+.title-main {
+  font-family: var(--font-caps);
+  font-weight: normal;
+  font-size: clamp(2.4rem, 7vw, 4rem);
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+  margin: 0.1em 0;
+}
+.title-name {
+  font-family: var(--font-script);
+  font-weight: normal;
+  font-size: clamp(2.6rem, 8vw, 4.4rem);
+  color: var(--ink-red);
+  line-height: 1.2;
+  margin: 0.1em 0;
+}
+.title-sub {
+  font-family: var(--font-caps);
+  font-size: 1.15rem;
+  letter-spacing: 0.08em;
+  margin: 0.2em 0;
+}
+.title-desc {
+  font-style: italic;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.title-imprint {
+  font-family: var(--font-caps);
+  letter-spacing: 0.1em;
+  margin-bottom: 1.8em;
+}
+
+/* Wax-seal style button */
+.btn-wax {
+  display: inline-block;
+  font-family: var(--font-caps);
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  color: var(--paper-light);
+  text-decoration: none;
+  padding: 0.7em 1.6em;
+  border-radius: 40px;
+  background: radial-gradient(circle at 35% 30%, #b03030, var(--wax) 55%, var(--wax-dark));
+  box-shadow: 0 3px 6px rgba(0,0,0,0.45), inset 0 -2px 4px rgba(0,0,0,0.35);
+  transition: transform 0.15s ease;
+}
+.btn-wax:hover { color: #fff; transform: scale(1.04); }
+
+/* ---------- Navigation ---------- */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4em 1.2em;
+  padding: 0.6em 1em;
+  background: rgba(34, 21, 12, 0.92);
+  border-bottom: 1px solid rgba(242, 227, 191, 0.25);
+  font-family: var(--font-caps);
+  letter-spacing: 0.08em;
+}
+.site-nav a { color: var(--paper); text-decoration: none; }
+.site-nav a:hover { color: #fff; text-decoration: underline; }
+.site-nav .fleuron { color: var(--paper-dark); }
+
+/* ---------- Page sections ---------- */
+main { padding: 0 16px; }
+
+.page-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  scroll-margin-top: 60px;
+}
+section.parchment.page-section {
+  max-width: 860px;
+  padding: 48px clamp(20px, 5vw, 64px);
+}
+
+/* ---------- Timeline ---------- */
+.timeline-wrap {
+  padding: 24px 24px 12px;
+  margin-bottom: 28px;
+}
+.timeline-scroll {
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+.timeline {
+  position: relative;
+  min-width: 760px;
+  height: 90px;
+  margin: 0 20px;
+}
+.timeline-line {
+  position: absolute;
+  left: 0; right: 0;
+  top: 40px;
+  height: 0;
+  border-top: 3px double var(--ink);
+}
+.timeline-year {
+  position: absolute;
+  top: 52px;
+  transform: translateX(-50%);
+  font-family: var(--font-caps);
+  font-size: 0.85rem;
+  color: var(--ink-faded);
+}
+.timeline-year::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -12px;
+  height: 8px;
+  border-left: 1px solid var(--ink-faded);
+}
+.timeline-marker {
+  position: absolute;
+  top: 31px;
+  width: 20px;
+  height: 20px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 2px solid var(--ink);
+  background: var(--paper-light);
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.timeline-marker:hover,
+.timeline-marker:focus-visible {
+  transform: translateX(-50%) scale(1.25);
+  outline: none;
+}
+.timeline-marker.active {
+  background: radial-gradient(circle at 35% 30%, #b03030, var(--wax) 55%, var(--wax-dark));
+  border-color: var(--wax-dark);
+  transform: translateX(-50%) scale(1.35);
+}
+.timeline-marker .marker-label {
+  position: absolute;
+  bottom: 26px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: var(--font-print);
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--ink);
+  background: var(--paper-light);
+  border: 1px solid var(--rule);
+  padding: 1px 6px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+.timeline-marker:hover .marker-label,
+.timeline-marker:focus-visible .marker-label,
+.timeline-marker.active .marker-label { opacity: 1; }
+
+.timeline-caption {
+  text-align: center;
+  font-style: italic;
+  margin: 4px 0 0;
+  color: var(--ink-faded);
+}
+
+/* ---------- Entry layout ---------- */
+.entry-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+
+/* The diary page */
+.diary-page {
+  padding: 48px clamp(20px, 5vw, 56px) 32px;
+  min-height: 640px;
+  /* Left binding shadow, like a bound book */
+  border-left: 10px solid #3b2414;
+  box-shadow:
+    inset 0 0 70px var(--paper-edge),
+    inset 14px 0 18px -10px rgba(0,0,0,0.45),
+    0 10px 30px rgba(0,0,0,0.55);
+  transition: opacity 0.25s ease;
+}
+.diary-page.turning { opacity: 0; }
+
+.diary-date {
+  font-family: var(--font-script);
+  font-size: 2rem;
+  color: var(--ink);
+  margin: 0;
+  line-height: 1.2;
+}
+.diary-title {
+  font-family: var(--font-caps);
+  font-weight: normal;
+  font-size: 1.15rem;
+  color: var(--ink-red);
+  margin: 0.2em 0 1em;
+  letter-spacing: 0.05em;
+}
+
+/* Faintly ruled lines behind the diary text */
+.diary-body {
+  font-family: var(--font-diary);
+  font-size: 1.12rem;
+  line-height: 32px;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px, transparent 31px,
+    var(--rule) 31px, var(--rule) 32px);
+  min-height: 384px;
+}
+.diary-body p { margin: 0 0 32px; }
+.diary-body .placeholder { line-height: 1.6; }
+
+/* Drop cap on the first paragraph of a real entry */
+.diary-body p.first::first-letter {
+  font-family: var(--font-caps);
+  float: left;
+  font-size: 3.4em;
+  line-height: 0.85;
+  padding: 6px 8px 0 0;
+  color: var(--ink-red);
+}
+
+.diary-signature {
+  font-family: var(--font-script);
+  font-size: 1.8rem;
+  text-align: right;
+  margin: 0.4em 0 0.8em;
+}
+
+.page-turn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  border-top: 1px solid var(--rule);
+  padding-top: 14px;
+}
+.btn-turn {
+  font-family: var(--font-caps);
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--ink-faded);
+  padding: 0.35em 0.9em;
+  cursor: pointer;
+}
+.btn-turn:hover:not(:disabled) { background: rgba(122, 31, 20, 0.08); color: var(--ink-red); }
+.btn-turn:disabled { opacity: 0.35; cursor: default; }
+.page-count {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--ink-faded);
+  text-align: center;
+}
+
+/* ---------- Context panel ---------- */
+.context-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.context-card {
+  padding: 24px 26px;
+}
+.card-title {
+  font-family: var(--font-caps);
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: var(--ink-red);
+  text-align: center;
+  margin: 0 0 0.6em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--rule);
+}
+.context-event {
+  font-family: var(--font-caps);
+  margin: 0 0 0.3em;
+}
+
+/* Letters: folded paper with a wax seal */
+.letter {
+  position: relative;
+  background: var(--paper-light);
+  background-image: var(--grain);
+  border: 1px solid var(--rule);
+  box-shadow: 2px 3px 6px rgba(60, 35, 10, 0.25);
+  padding: 18px 20px 20px;
+  margin: 0 0 18px;
+}
+.letter::after {               /* wax seal */
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #b03030, var(--wax) 55%, var(--wax-dark));
+  box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+.letter-meta {
+  font-family: var(--font-caps);
+  font-size: 0.9rem;
+  color: var(--ink-faded);
+  margin: 0 0 0.4em;
+}
+.letter-body { font-family: var(--font-diary); }
+
+/* Documents: real primary sources */
+.document {
+  margin: 0 0 22px;
+  padding-bottom: 18px;
+  border-bottom: 1px dotted var(--rule);
+}
+.document:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.document-title {
+  font-family: var(--font-print);
+  font-style: italic;
+  font-size: 1.05rem;
+  margin: 0 0 0.3em;
+}
+.document-figure {
+  margin: 0.5em 0;
+  border: 6px solid #5a3a20;
+  outline: 1px solid var(--ink);
+  background: var(--paper-dark);
+}
+.document-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: sepia(0.25);
+}
+.image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4 / 3;
+  font-style: italic;
+  color: var(--ink-faded);
+  text-align: center;
+  padding: 1em;
+}
+.document-citation {
+  font-size: 0.85rem;
+  color: var(--ink-faded);
+  margin: 0.4em 0 0;
+}
+.document-note {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--ink-faded);
+  margin: 0.3em 0 0;
+}
+
+.empty-note {
+  font-style: italic;
+  color: var(--ink-faded);
+  text-align: center;
+  margin: 0;
+}
+
+/* ---------- Bibliography ---------- */
+.bibliography {
+  list-style: none;
+  padding: 0;
+}
+.bibliography li {
+  padding-left: 2em;
+  text-indent: -2em;     /* hanging indent */
+  margin-bottom: 0.8em;
+}
+.bibliography li.placeholder { text-indent: 0; padding-left: 1em; }
+
+/* ---------- Footer ---------- */
+.site-footer {
+  text-align: center;
+  color: var(--paper);
+  padding: 32px 16px 48px;
+  font-size: 0.95rem;
+}
+.site-footer a { color: var(--paper-dark); font-family: var(--font-caps); }
+.site-footer .ornament { color: var(--paper-dark); }
+.footer-note { font-style: italic; color: var(--paper-dark); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .entry-layout { grid-template-columns: 1fr; }
+  .diary-page { min-height: 0; }
+}
+@media (max-width: 560px) {
+  body { font-size: 17px; }
+  .title-page { padding: 28px 16px; margin-top: 24px; }
+  .title-frame { padding: 24px 12px; }
+  .diary-page { border-left-width: 6px; }
+  .page-turn { flex-wrap: wrap; justify-content: center; }
+  .page-count { order: -1; width: 100%; }
+}
