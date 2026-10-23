@@ -81,12 +81,14 @@
   }
 
   function renderContext(entry) {
-    els.context.replaceChildren(
-      el("p", "context-event", entry.event),
-      entry.context && !entry.context.startsWith("[")
-        ? el("p", "", entry.context)
-        : placeholder(entry.context || "[Insert historical context here]")
-    );
+    els.context.replaceChildren(el("p", "context-event", entry.event));
+
+    const paras = [].concat(entry.context || []);
+    if (paras.length === 0 || paras[0].startsWith("[")) {
+      els.context.appendChild(placeholder(paras[0] || "[Insert historical context here]"));
+      return;
+    }
+    paras.forEach((para) => els.context.appendChild(el("p", "", para)));
   }
 
   function renderLetters(entry) {
@@ -120,19 +122,33 @@
       const wrap = el("div", "document");
       wrap.appendChild(el("p", "document-title", doc.title));
 
-      const figure = el("figure", "document-figure");
-      if (doc.image) {
-        const img = document.createElement("img");
-        img.src = doc.image;
-        img.alt = doc.imageAlt || doc.title;
-        img.loading = "lazy";
-        figure.appendChild(img);
-      } else {
-        figure.appendChild(el("div", "image-placeholder", "[Insert image here]"));
+      const hasText = doc.text && doc.text.length > 0;
+
+      // Show an image if there is one; a text-only document needs no image slot.
+      if (doc.image || !hasText) {
+        const figure = el("figure", "document-figure");
+        if (doc.image) {
+          const img = document.createElement("img");
+          img.src = doc.image;
+          img.alt = doc.imageAlt || doc.title;
+          img.loading = "lazy";
+          figure.appendChild(img);
+        } else {
+          figure.appendChild(el("div", "image-placeholder", "[Insert image here]"));
+        }
+        wrap.appendChild(figure);
       }
-      wrap.appendChild(figure);
 
       if (doc.note) wrap.appendChild(el("p", "document-note", doc.note));
+
+      if (hasText) {
+        const details = el("details", "document-text");
+        details.appendChild(el("summary", "", "Read the full text"));
+        const transcript = el("div", "transcript");
+        doc.text.forEach((para) => transcript.appendChild(el("p", "", para)));
+        details.appendChild(transcript);
+        wrap.appendChild(details);
+      }
 
       const cite = el("p", "document-citation", doc.citation || "");
       if (doc.url) {
