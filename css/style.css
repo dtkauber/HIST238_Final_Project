@@ -259,6 +259,27 @@ section.parchment.page-section {
   color: var(--ink-red);
 }
 
+/* "How to Read" guide: a boxed note set apart from the introduction */
+.reading-guide {
+  border: 3px double var(--ink-faded);
+  background: rgba(255, 250, 235, 0.45);
+  padding: 20px clamp(16px, 4vw, 32px) 8px;
+  margin-top: 0.5em;
+}
+.guide-title {
+  font-family: var(--font-caps);
+  font-weight: normal;
+  font-size: 1.35rem;
+  color: var(--ink-red);
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.6em;
+}
+.reading-guide p {
+  font-size: 0.95em;
+  margin: 0 0 0.9em;
+}
+
 /* ---------- Timeline ---------- */
 .timeline-wrap {
   padding: 24px 24px 12px;
