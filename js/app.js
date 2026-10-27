@@ -17,7 +17,6 @@
     title:     document.getElementById("entry-title"),
     body:      document.getElementById("entry-body"),
     context:   document.getElementById("entry-context"),
-    letters:   document.getElementById("entry-letters"),
     documents: document.getElementById("entry-documents"),
     prev:      document.getElementById("prev-btn"),
     next:      document.getElementById("next-btn"),
@@ -91,27 +90,6 @@
     paras.forEach((para) => els.context.appendChild(el("p", "", para)));
   }
 
-  function renderLetters(entry) {
-    els.letters.replaceChildren();
-    if (!entry.letters || entry.letters.length === 0) {
-      els.letters.appendChild(placeholder("[Insert letter here]"));
-      return;
-    }
-    entry.letters.forEach((letter) => {
-      const card = el("div", "letter");
-      card.appendChild(el("p", "letter-meta",
-        `From ${letter.from} to ${letter.to}${letter.date ? " — " + letter.date : ""}`));
-      const body = el("div", "letter-body");
-      if (!letter.body || letter.body.length === 0) {
-        body.appendChild(placeholder("[Insert letter here]"));
-      } else {
-        letter.body.forEach((para) => body.appendChild(el("p", "", para)));
-      }
-      card.appendChild(body);
-      els.letters.appendChild(card);
-    });
-  }
-
   function renderDocuments(entry) {
     els.documents.replaceChildren();
     if (!entry.documents || entry.documents.length === 0) {
@@ -180,7 +158,6 @@
     const entry = entries[current];
     renderDiary(entry);
     renderContext(entry);
-    renderLetters(entry);
     renderDocuments(entry);
     updateNav();
   }

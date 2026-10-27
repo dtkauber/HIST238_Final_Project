@@ -14,7 +14,6 @@
      context     note explaining the event (shown in side panel);
                  a single string, or an array of paragraphs
      diary       array of paragraphs; leave as [] to show a placeholder
-     letters     array of { from, to, date, body }   (body: array of paragraphs)
      documents   array of { title, image, imageAlt, citation, url, note, text }
                  (text: optional array of paragraphs — a full transcription,
                   shown behind a "Read the full text" toggle)
@@ -35,9 +34,6 @@ const JOURNAL_ENTRIES = [
       "Across the colonies, protest movements had already emerged in opposition to the Stamp Act. In Boston, the Sons of Liberty targeted tax collectors and hanged effigies as an intimidation tactic. In Philadelphia, the Pennsylvania Gazette, a newspaper run by Benjamin Franklin, was suspended in protest of the Stamp Act. One week later, Franklin's partner David Hall issued news sheets of the Gazette on unstamped paper without a masthead to avoid the legal repercussions of the law. Overall, the Stamp Act acted as the kindling for rising tensions in the American colonies before the Revolution."
     ],
     diary: [],
-    letters: [
-      { from: "[Correspondent]", to: "William Hutchinson", date: "[Date]", body: [] }
-    ],
     documents: [
       {
         title: "Thomas Wharton to Benjamin Franklin, 7 November 1765",
@@ -45,7 +41,7 @@ const JOURNAL_ENTRIES = [
         imageAlt: "",
         citation: "Wharton, Thomas. \"Thomas Wharton to Benjamin Franklin, 7 November 1765.\" Founders Online, National Archives.",
         url: "https://founders.archives.gov/documents/Franklin/01-12-02-0178",
-        note: "[Insert excerpt or explanation here]",
+        note: "Thomas Wharton wrote this letter to Benjamin Franklin regarding the fierce colonial response to the Stamp Act. In his letter, Wharton explains that Philadelphia merchants formed a non-importation agreement to boycott British goods in hopes of pressuring Parliament into repealing the Stamp Act. Although Wharton viewed this as a favorable approach as opposed to the violent riots breaking out in New York, Wharton remained concerned about how the Stamp Act crisis disrupted the everyday lives of colonists in Philadelphia. These disruptions included the closure of Philadelphia’s port and the suspension of court proceedings and government business.",
         text: [
           "My Dear friend",
           "Thy Acceptable favour of the 19th of August I had the Pleasure of receiving, and am altogether of thy Mind that if this Meeting at New York shall be favourably look’d on by our Superiors at Home, Meetings of this kind may in future be of great service to America; And as I understand the Affairs thereat transacted, were laid before our House, at their last Meeting, and by the Committee of Correspondence transmitted to thee, I need not Point the Fact out.",
@@ -71,7 +67,6 @@ const JOURNAL_ENTRIES = [
     event: "Philadelphia merchants adopt non-importation against the Townshend Acts",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
     ]
@@ -84,7 +79,6 @@ const JOURNAL_ENTRIES = [
     event: "The tea ship Polly is turned back from Philadelphia",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       {
         title: "To the Delaware Pilots (1773)",
@@ -104,7 +98,6 @@ const JOURNAL_ENTRIES = [
     event: "The First Continental Congress meets at Carpenters' Hall",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       {
         title: "The Bostonian's Paying the Excise-Man, or Tarring & Feathering (1774)",
@@ -124,7 +117,6 @@ const JOURNAL_ENTRIES = [
     event: "News of Lexington and Concord reaches Philadelphia",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
     ]
@@ -137,7 +129,6 @@ const JOURNAL_ENTRIES = [
     event: "Thomas Paine's Common Sense is published in Philadelphia",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
     ]
@@ -150,7 +141,6 @@ const JOURNAL_ENTRIES = [
     event: "The Declaration of Independence is read publicly in the State House yard",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
     ]
@@ -163,7 +153,6 @@ const JOURNAL_ENTRIES = [
     event: "Pennsylvania passes the Test Act requiring oaths of allegiance",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
     ]
@@ -176,7 +165,6 @@ const JOURNAL_ENTRIES = [
     event: "The British Army enters and occupies Philadelphia",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
     ]
@@ -189,7 +177,6 @@ const JOURNAL_ENTRIES = [
     event: "The Meschianza, a farewell fête for General Howe",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
     ]
@@ -202,7 +189,6 @@ const JOURNAL_ENTRIES = [
     event: "The British evacuate Philadelphia; the Patriots return",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
     ]
@@ -215,7 +201,6 @@ const JOURNAL_ENTRIES = [
     event: "Loyalists Abraham Carlisle and John Roberts are hanged for treason",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       {
         title: "Diary of Grace Growden Galloway (1778–79)",
@@ -235,7 +220,6 @@ const JOURNAL_ENTRIES = [
     event: "News of Cornwallis's surrender at Yorktown reaches Philadelphia",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
     ]
@@ -248,7 +232,6 @@ const JOURNAL_ENTRIES = [
     event: "The Treaty of Paris ends the war",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
     ]
@@ -261,7 +244,6 @@ const JOURNAL_ENTRIES = [
     event: "[Hutchinson's fate after the war — exile, compensation claim, etc.]",
     context: "[Insert historical context here]",
     diary: [],
-    letters: [],
     documents: [
       {
         title: "William Franklin to Benjamin Franklin, 22 July [–6 August] 1784",

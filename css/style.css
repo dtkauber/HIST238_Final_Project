@@ -489,35 +489,6 @@ section.parchment.page-section {
   margin: 0 0 0.3em;
 }
 
-/* Letters: folded paper with a wax seal */
-.letter {
-  position: relative;
-  background: var(--paper-light);
-  background-image: var(--grain);
-  border: 1px solid var(--rule);
-  box-shadow: 2px 3px 6px rgba(60, 35, 10, 0.25);
-  padding: 18px 20px 20px;
-  margin: 0 0 18px;
-}
-.letter::after {               /* wax seal */
-  content: "";
-  position: absolute;
-  top: -10px;
-  right: 14px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 35% 30%, #b03030, var(--wax) 55%, var(--wax-dark));
-  box-shadow: 0 2px 3px rgba(0,0,0,0.4);
-}
-.letter-meta {
-  font-family: var(--font-caps);
-  font-size: 0.9rem;
-  color: var(--ink-faded);
-  margin: 0 0 0.4em;
-}
-.letter-body { font-family: var(--font-diary); }
-
 /* Documents: real primary sources */
 .document {
   margin: 0 0 22px;
@@ -559,10 +530,8 @@ section.parchment.page-section {
   margin: 0.4em 0 0;
 }
 .document-note {
-  font-size: 0.85rem;
-  font-style: italic;
-  color: var(--ink-faded);
-  margin: 0.3em 0 0;
+  font-size: 0.95rem;
+  margin: 0.3em 0 0.5em;
 }
 
 /* Full transcription of a document, behind a toggle */
