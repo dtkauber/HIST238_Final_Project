@@ -110,7 +110,14 @@
           img.src = doc.image;
           img.alt = doc.imageAlt || doc.title;
           img.loading = "lazy";
-          figure.appendChild(img);
+          // Clicking the image opens it full size in a new tab.
+          const link = el("a");
+          link.href = doc.image;
+          link.target = "_blank";
+          link.rel = "noopener";
+          link.title = "View full size";
+          link.appendChild(img);
+          figure.appendChild(link);
         } else {
           figure.appendChild(el("div", "image-placeholder", "[Insert image here]"));
         }

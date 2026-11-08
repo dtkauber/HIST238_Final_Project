@@ -33,7 +33,11 @@ const JOURNAL_ENTRIES = [
       "On November 1, 1765, the Stamp Act took effect in the American colonies. As a means to try and pay off the debt accumulated while protecting the colonies during the Seven Years’ War, the Stamp Act imposed taxes on newspapers, legal documents, and many other paper goods. After living in salutary neglect, colonists were angered by this new tax, especially since they had no direct representation in the British Parliament that enacted this law.",
       "Across the colonies, protest movements had already emerged in opposition to the Stamp Act. In Boston, the Sons of Liberty targeted tax collectors and hanged effigies as an intimidation tactic. In Philadelphia, the Pennsylvania Gazette, a newspaper run by Benjamin Franklin, was suspended in protest of the Stamp Act. One week later, Franklin's partner David Hall issued news sheets of the Gazette on unstamped paper without a masthead to avoid the legal repercussions of the law. Overall, the Stamp Act acted as the kindling for rising tensions in the American colonies before the Revolution."
     ],
-    diary: [],
+    diary: [
+      "This day hath brought much uneasiness upon my household. The inhabitants of His Majesty’s colonies find themselves much aggrieved at the news of the recent Stamp Act enacted by Parliament. Earlier this morning, many of my fellow merchants formed an agreement to not import any of His Majesty’s goods. I fear that my business now shall suffer, and that I may fail to provide for my family while this Act remains.",
+      "I find myself greatly troubled that this act hath brought more trouble upon this land than is favorable for His Majesty. Correspondence from New York tells of the violent protests that have erupted in light of Parliament’s actions, and I fear that these protests may come soon to my beloved Philadelphia. The subjects of this great colony have already threatened His Majesty’s supporters, and I am troubled by the thought of my loyalty to the Crown bringing harm upon my family and property.",
+      "I most certainly hope that the lords in our great Parliament reconsider this tax, and put an end to this madness soon. I dread what may yet come to pass in the meantime, and I most devoutly hope that this Act doth not lead to further troubles in His Majesty’s kingdom."
+    ],
     documents: [
       {
         title: "Thomas Wharton to Benjamin Franklin, 7 November 1765",
@@ -82,11 +86,25 @@ const JOURNAL_ENTRIES = [
     documents: [
       {
         title: "To the Delaware Pilots (1773)",
-        image: "",
-        imageAlt: "",
-        citation: "Committee for Tarring and Feathering. To the Delaware Pilots. Philadelphia, 1773. Broadside. Library of Congress.",
+        image: "images/delaware-pilots-1773.jpg",
+        imageAlt: "Printed broadside titled To the Delaware Pilots, signed by the Committee for Tarring and Feathering, Philadelphia, 1773",
+        citation: "Committee for Tarring and Feathering. To the Delaware Pilots. Philadelphia, 1773. Broadside. Library of Congress, Rare Book and Special Collections Division.",
         url: "https://www.loc.gov/item/rbpe.1430330a/",
-        note: "[Insert excerpt or explanation here]"
+        note: "[Insert explanation here]",
+        text: [
+          "TO THE DELAWARE PILOTS.",
+          "THE Regard we have for your Characters, and our Desire to promote your future Peace and Safety, are the Occasion of this Third Address to you.",
+          "In our second Letter we acquainted you, that the Tea Ship was a Three Decker; We are now informed by good Authority, she is not a Three Decker, but an old black Ship, without a Head, or any Ornaments.",
+          "The Captain is a short fat Fellow, and a little obstinate withal.—So much the worse for him.—For, so sure as he rides rusty, We shall heave him Keel out, and see that his Bottom be well fired, scrubb'd and paid.—His Upper-Works too, will have an Overhawling—and as it is said, he has a good deal of Quick Work about him, We will take particular Care that such Part of him undergoes a thorough Rummaging.",
+          "We have a still worse Account of his Owner;—for it is said, the Ship Polly was bought by him on Purpose, to make a Penny of us; and that he and Captain Ayres were well advised of the Risque they would run, in thus daring to insult and abuse us.",
+          "Captain Ayres was here in the Time of the Stamp-Act, and ought to have known our People better, than to have expected we would be so mean as to suffer his rotten TEA to be funnel'd down our Throats, with the Parliament's Duty mixed with it.",
+          "We know him well, and have calculated to a Gill and a Feather, how much it will require to fit him for an American Exhibition. And we hope, not one of your Body will behave so ill, as to oblige us to clap him in the Cart along Side of the Captain.",
+          "We must repeat, that the SHIP POLLY is an old black Ship, of about Two Hundred and Fifty Tons burthen, without a Head, and without Ornaments,—and, that CAPTAIN AYRES is a thick chunky Fellow.—As such, TAKE CARE to AVOID THEM.",
+          "Your Old Friends, The COMMITTEE FOR TARRING AND FEATHERING.",
+          "Philadelphia, December 7, 1773.",
+          "Monday Morning, December 27, 1773.",
+          "THE TEA-SHIP being arrived, every Inhabitant, who wishes to preserve the Liberty of America, is desired to meet at the State-House, This Morning, precisely at TEN o'Clock, to advise what is best to be done on this alarming Crisis."
+        ]
       }
     ]
   },
@@ -101,8 +119,8 @@ const JOURNAL_ENTRIES = [
     documents: [
       {
         title: "The Bostonian's Paying the Excise-Man, or Tarring & Feathering (1774)",
-        image: "",
-        imageAlt: "",
+        image: "images/bostonians-paying-the-excise-man-1774.jpg",
+        imageAlt: "British cartoon showing a crowd of Bostonians forcing tea down the throat of a tarred and feathered customs officer beneath a Liberty Tree",
         citation: "Dawe, Philip (attributed). London: Robert Sayer and John Bennett, 1774. Library of Congress Prints and Photographs Division.",
         url: "https://www.loc.gov/item/2004673302/",
         note: "[Insert explanation here]"
@@ -206,9 +224,13 @@ const JOURNAL_ENTRIES = [
         title: "Diary of Grace Growden Galloway (1778–79)",
         image: "",
         imageAlt: "",
-        citation: "Galloway, Grace Growden. \"Diary of Grace Growden Galloway.\" Edited by Raymond C. Werner. Pennsylvania Magazine of History and Biography 55, no. 1 (1931): 32–94.",
-        url: "http://www.jstor.org/stable/20086760",
-        note: "[Insert excerpt or explanation here]"
+        citation: "Galloway, Grace Growden. \"Diary of Grace Growden Galloway.\" Edited by Raymond C. Werner. Pennsylvania Magazine of History and Biography 55, no. 1 (1931): 32–94, at 56.",
+        url: "https://journals.psu.edu/pmhb/article/download/28217/27973",
+        note: "[Insert explanation here]",
+        text: [
+          "November ye 4th 1778",
+          "This day John Roberts, & Abraham Carlile ware executed: all things are gloomy went to Neighbour Eddy's she came home to Night but I was call'd home to see ben Chew, but his behavior was so cold Nay disrespectful to Me that I was quite shocked: & wished I had not seen him he has alter'd ever since Mr G was going home in short he was scarce civil I have no friends"
+        ]
       }
     ]
   },
@@ -221,7 +243,44 @@ const JOURNAL_ENTRIES = [
     context: "[Insert historical context here]",
     diary: [],
     documents: [
-      { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
+      {
+        title: "Articles of Capitulation, Yorktown, 19 October 1781",
+        image: "",
+        imageAlt: "",
+        citation: "\"Articles of Capitulation; October 18, 1781.\" The Avalon Project, Lillian Goldman Law Library, Yale Law School.",
+        url: "https://avalon.law.yale.edu/18th_century/art_of_cap_1781.asp",
+        note: "[Insert explanation here]",
+        text: [
+          "Articles of Capitulation",
+          "Settled between his Excellency General Washington, Commander-in-Chief of the combined Forces of America and France; his Excellency the Count de Rochambeau, Lieutenant-General of the Armies of the King of France, Great Cross of the royal and military Order of St. Louis, commanding the auxiliary troops of his Most Christian Majesty in America; and his Excellency the Count de Grasse, Lieutenant-General of the Naval Armies of his Most Christian Majesty, Commander of the Order of St. Louis, Commander-in-Chief of the Naval Army of France in the Chesapeake, on the one Part; and the Right Honorable Earl Cornwallis, Lieutenant-General of his Britannic Majesty's Forces, commanding the Garrisons of York and Gloucester; and Thomas Symonds, Esquire, commanding his Britannic Majesty's Naval Forces in York River in Virginia, on the other Part.",
+          "Article I. The garrisons of York and Gloucester, including the officers and seamen of his Britannic Majesty's ships, as well as other mariners, to surrender themselves prisoners of war to the combined forces of America and France. The land troops to remain prisoners to the United States, the navy to the naval army of his Most Christian Majesty.",
+          "Article II. The artillery, arms, accoutrements, military chest, and public stores of every denomination, shall be delivered unimpaired to the heads of departments appointed to receive them.",
+          "Article III. At twelve o'clock this day the two redoubts on the left flank of York to be delivered, the one to a detachment of American infantry, the other to a detachment of French grenadiers.",
+          "The garrison of York will march out to a place to be appointed in front of the posts, at two o'clock precisely, with shouldered arms, colors cased, and drums beating a British or German march. They are then to ground their arms, and return to their encampments, where they will remain until they are despatched to the places of their destination. Two works on the Gloucester side will be delivered at one o'clock to a detachment of French and American troops appointed to possess them. The garrison will march out at three o'clock in the afternoon; the cavalry with their swords drawn, trumpets sounding, and the infantry in the manner prescribed for the garrison of York. They are likewise to return to their encampments until they can be finally marched off.",
+          "Article IV. Officers are to retain their side-arms. Both officers and soldiers to keep their private property of every kind; and no part of their baggage or papers to be at any time subject to search or inspection. The baggage and papers of officers and soldiers taken during the siege to be likewise preserved for them.",
+          "It is understood that any property obviously belonging to the inhabitants of these States, in the possession of the garrison, shall be subject to be reclaimed.",
+          "Article V. The soldiers to be kept in Virginia, Maryland, or Pennsylvania, and as much by regiments as possible, and supplied with the same rations of provisions as are allowed to soldiers in the service of America. A field-officer from each nation, to wit, British, Anspach, and Hessian, and other officers on parole, in the proportion of one to fifty men to be allowed to reside near their respective regiments, to visit them frequently, and be witnesses of their treatment; and that their officers may receive and deliver clothing and other necessaries for them, for which passports are to be granted when applied for.",
+          "Article VI. The general, staff, and other officers not employed as mentioned in the above articles, and who choose it, to be permitted to go on parole to Europe, to New York, or to any other American maritime posts at present in the possession of the British forces, at their own option; and proper vessels to be granted by the Count de Grasse to carry them under flags of truce to New York within ten days from this date, if possible, and they to reside in a district to be agreed upon hereafter, until they embark. The officers of the civil department of the army and navy to be included in this article. Passports to go by land to be granted to those to whom vessels cannot be furnished.",
+          "Article VII. Officers to be allowed to keep soldiers as servants, according to the common practice of the service. Servants not soldiers are not to be considered as prisoners, and are to be allowed to attend their masters.",
+          "Article VIII. The Bonetta sloop-of-war to be equipped, and navigated by its present captain and crew, and left entirely at the disposal of Lord Cornwallis from the hour that the capitulation is signed, to receive an aid-de-camp to carry despatches to Sir Henry Clinton; and such soldiers as he may think proper to send to New York, to be permitted to sail without examination. When his despatches are ready, his Lordship engages on his part, that the ship shall be delivered to the order of the Count de Grasse, if she escapes the dangers of the sea. That she shall not carry off any public stores. Any part of the crew that may be deficient on her return, and the soldiers passengers, to be accounted for on her delivery.",
+          "Article IX. The traders are to preserve their property, and to be allowed three months to dispose of or remove them; and those traders are not to be considered as prisoners of war. The traders will be allowed to dispose of their effects, the allied army having the right of preemption. The traders to be considered as prisoners of war upon parole.",
+          "Article X. Natives or inhabitants of different parts of this country, at present in York or Gloucester, are not to be punished on account of having joined the British army.",
+          "This article cannot be assented to, being altogether of civil resort.",
+          "Article XI. Proper hospitals to be furnished for the sick and wounded. They are to be attended by their own surgeons on parole; and they are to be furnished with medicines and stores from the American hospitals.",
+          "The hospital stores now at York and Gloucester shall be delivered for the use of the British sick and wounded. Passports will be granted for procuring them further supplies from New York, as occasion may require; and proper hospitals will be furnished for the reception of the sick and wounded of the two garrisons.",
+          "Article XII. Wagons to be furnished to carry the baggage of the officers attending the soldiers, and to surgeons when traveling on account of the sick, attending the hospitals at public expense.",
+          "They are to be furnished if possible.",
+          "Article XIII. The shipping and boats in the two harbours, with all their stores, guns, tackling, and apparel, shall be delivered up in their present state to an officer of the navy appointed to take possession of them, previously unloading the private property, part of which had been on board for security during the siege.",
+          "Article XIV. No article of capitulation to be infringed on pretence of reprisals; and if there be any doubtful expressions in it, they are to be interpreted according to the common meaning and acceptation of the words.",
+          "Done at Yorktown, in Virginia, October 19th, 1781.",
+          "Cornwallis, Thomas Symonds.",
+          "Done in the Trenches before Yorktown, in Virginia, October 19th, 1781.",
+          "George Washington,",
+          "Le Comte de Rochambeau,",
+          "Le Comte de Barras,",
+          "En mon nom & celui du Comte de Grasse."
+        ]
+      }
     ]
   },
   {
@@ -233,7 +292,35 @@ const JOURNAL_ENTRIES = [
     context: "[Insert historical context here]",
     diary: [],
     documents: [
-      { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
+      {
+        title: "The Definitive Treaty of Peace (Treaty of Paris), 3 September 1783",
+        image: "images/treaty-of-paris-1783-signature-page.jpg",
+        imageAlt: "Final page of the handwritten Treaty of Paris, 1783, with the signatures and wax seals of David Hartley, John Adams, Benjamin Franklin, and John Jay",
+        citation: "\"The Paris Peace Treaty of September 3, 1783.\" The Avalon Project, Lillian Goldman Law Library, Yale Law School. Image: final page of the treaty, General Records of the United States Government, National Archives.",
+        url: "https://avalon.law.yale.edu/18th_century/paris.asp",
+        note: "[Insert explanation here]",
+        text: [
+          "The Definitive Treaty of Peace 1783",
+          "In the name of the most holy and undivided Trinity.",
+          "It having pleased the Divine Providence to dispose the hearts of the most serene and most potent Prince George the Third, by the grace of God, king of Great Britain, France, and Ireland, defender of the faith, duke of Brunswick and Lunebourg, arch-treasurer and prince elector of the Holy Roman Empire etc., and of the United States of America, to forget all past misunderstandings and differences that have unhappily interrupted the good correspondence and friendship which they mutually wish to restore, and to establish such a beneficial and satisfactory intercourse , between the two countries upon the ground of reciprocal advantages and mutual convenience as may promote and secure to both perpetual peace and harmony; and having for this desirable end already laid the foundation of peace and reconciliation by the Provisional Articles signed at Paris on the 30th of November 1782, by the commissioners empowered on each part, which articles were agreed to be inserted in and constitute the Treaty of Peace proposed to be concluded between the Crown of Great Britain and the said United States, but which treaty was not to be concluded until terms of peace should be agreed upon between Great Britain and France and his Britannic Majesty should be ready to conclude such treaty accordingly; and the treaty between Great Britain and France having since been concluded, his Britannic Majesty and the United States of America, in order to carry into full effect the Provisional Articles above mentioned, according to the tenor thereof, have constituted and appointed, that is to say his Britannic Majesty on his part, David Hartley, Esqr., member of the Parliament of Great Britain, and the said United States on their part, John Adams, Esqr., late a commissioner of the United States of America at the court of Versailles, late delegate in Congress from the state of Massachusetts, and chief justice of the said state, and minister plenipotentiary of the said United States to their high mightinesses the States General of the United Netherlands; Benjamin Franklin, Esqr., late delegate in Congress from the state of Pennsylvania, president of the convention of the said state, and minister plenipotentiary from the United States of America at the court of Versailles; John Jay, Esqr., late president of Congress and chief justice of the state of New York, and minister plenipotentiary from the said United States at the court of Madrid; to be plenipotentiaries for the concluding and signing the present definitive treaty; who after having reciprocally communicated their respective full powers have agreed upon and confirmed the following articles.",
+          "Article 1: His Brittanic Majesty acknowledges the said United States, viz., New Hampshire, Massachusetts Bay, Rhode Island and Providence Plantations, Connecticut, New York, New Jersey, Pennsylvania, Maryland, Virginia, North Carolina, South Carolina and Georgia, to be free sovereign and independent states, that he treats with them as such, and for himself, his heirs, and successors, relinquishes all claims to the government, propriety, and territorial rights of the same and every part thereof.",
+          "Article 2: And that all disputes which might arise in future on the subject of the boundaries of the said United States may be prevented, it is hereby agreed and declared, that the following are and shall be their boundaries, viz.; from the northwest angle of Nova Scotia, viz., that angle which is formed by a line drawn due north from the source of St. Croix River to the highlands; along the said highlands which divide those rivers that empty themselves into the river St. Lawrence, from those which fall into the Atlantic Ocean, to the northwesternmost head of Connecticut River; thence down along the middle of that river to the forty-fifth degree of north latitude; from thence by a line due west on said latitude until it strikes the river Iroquois or Cataraquy; thence along the middle of said river into Lake Ontario; through the middle of said lake until it strikes the communication by water between that lake and Lake Erie; thence along the middle of said communication into Lake Erie, through the middle of said lake until it arrives at the water communication between that lake and Lake Huron; thence along the middle of said water communication into Lake Huron, thence through the middle of said lake to the water communication between that lake and Lake Superior; thence through Lake Superior northward of the Isles Royal and Phelipeaux to the Long Lake; thence through the middle of said Long Lake and the water communication between it and the Lake of the Woods, to the said Lake of the Woods; thence through the said lake to the most northwesternmost point thereof, and from thence on a due west course to the river Mississippi; thence by a line to be drawn along the middle of the said river Mississippi until it shall intersect the northernmost part of the thirty-first degree of north latitude, South, by a line to be drawn due east from the determination of the line last mentioned in the latitude of thirty-one degrees of the equator, to the middle of the river Apalachicola or Catahouche; thence along the middle thereof to its junction with the Flint River, thence straight to the head of Saint Mary's River; and thence down along the middle of Saint Mary's River to the Atlantic Ocean; east, by a line to be drawn along the middle of the river Saint Croix, from its mouth in the Bay of Fundy to its source, and from its source directly north to the aforesaid highlands which divide the rivers that fall into the Atlantic Ocean from those which fall into the river Saint Lawrence; comprehending all islands within twenty leagues of any part of the shores of the United States, and lying between lines to be drawn due east from the points where the aforesaid boundaries between Nova Scotia on the one part and East Florida on the other shall, respectively, touch the Bay of Fundy and the Atlantic Ocean, excepting such islands as now are or heretofore have been within the limits of the said province of Nova Scotia.",
+          "Article 3: It is agreed that the people of the United States shall continue to enjoy unmolested the right to take fish of every kind on the Grand Bank and on all the other banks of Newfoundland, also in the Gulf of Saint Lawrence and at all other places in the sea, where the inhabitants of both countries used at any time heretofore to fish. And also that the inhabitants of the United States shall have liberty to take fish of every kind on such part of the coast of Newfoundland as British fishermen shall use, (but not to dry or cure the same on that island) and also on the coasts, bays and creeks of all other of his Brittanic Majesty's dominions in America; and that the American fishermen shall have liberty to dry and cure fish in any of the unsettled bays, harbors, and creeks of Nova Scotia, Magdalen Islands, and Labrador, so long as the same shall remain unsettled, but so soon as the same or either of them shall be settled, it shall not be lawful for the said fishermen to dry or cure fish at such settlement without a previous agreement for that purpose with the inhabitants, proprietors, or possessors of the ground.",
+          "Article 4: It is agreed that creditors on either side shall meet with no lawful impediment to the recovery of the full value in sterling money of all bona fide debts heretofore contracted.",
+          "Article 5: It is agreed that Congress shall earnestly recommend it to the legislatures of the respective states to provide for the restitution of all estates, rights, and properties, which have been confiscated belonging to real British subjects; and also of the estates, rights, and properties of persons resident in districts in the possession on his Majesty's arms and who have not borne arms against the said United States. And that persons of any other decription shall have free liberty to go to any part or parts of any of the thirteen United States and therein to remain twelve months unmolested in their endeavors to obtain the restitution of such of their estates, rights, and properties as may have been confiscated; and that Congress shall also earnestly recommend to the several states a reconsideration and revision of all acts or laws regarding the premises, so as to render the said laws or acts perfectly consistent not only with justice and equity but with that spirit of conciliation which on the return of the blessings of peace should universally prevail. And that Congress shall also earnestly recommend to the several states that the estates, rights, and properties, of such last mentioned persons shall be restored to them, they refunding to any persons who may be now in possession the bona fide price (where any has been given) which such persons may have paid on purchasing any of the said lands, rights, or properties since the confiscation.",
+          "And it is agreed that all persons who have any interest in confiscated lands, either by debts, marriage settlements, or otherwise, shall meet with no lawful impediment in the prosecution of their just rights.",
+          "Article 6: That there shall be no future confiscations made nor any prosecutions commenced against any person or persons for, or by reason of, the part which he or they may have taken in the present war, and that no person shall on that account suffer any future loss or damage, either in his person, liberty, or property; and that those who may be in confinement on such charges at the time of the ratification of the treaty in America shall be immediately set at liberty, and the prosecutions so commenced be discontinued.",
+          "Article 7: There shall be a firm and perpetual peace between his Brittanic Majesty and the said states, and between the subjects of the one and the citizens of the other, wherefore all hostilities both by sea and land shall from henceforth cease. All prisoners on both sides shall be set at liberty, and his Brittanic Majesty shall with all convenient speed, and without causing any destruction, or carrying away any Negroes or other property of the American inhabitants, withdraw all his armies, garrisons, and fleets from the said United States, and from every post, place, and harbor within the same; leaving in all fortifications, the American artilery that may be therein; and shall also order and cause all archives, records, deeds, and papers belonging to any of the said states, or their citizens, which in the course of the war may have fallen into the hands of his officers, to be forthwith restored and delivered to the proper states and persons to whom they belong.",
+          "Article 8: The navigation of the river Mississippi, from its source to the ocean, shall forever remain free and open to the subjects of Great Britain and the citizens of the United States.",
+          "Article 9: In case it should so happen that any place or territory belonging to Great Britain or to the United States should have been conquered by the arms of either from the other before the arrival of the said Provisional Articles in America, it is agreed that the same shall be restored without difficulty and without requiring any compensation.",
+          "Article 10: The solemn ratifications of the present treaty expedited in good and due form shall be exchanged between the contracting parties in the space of six months or sooner, if possible, to be computed from the day of the signatures of the present treaty. In witness whereof we the undersigned, their ministers plenipotentiary, have in their name and in virtue of our full powers, signed with our hands the present definitive treaty and caused the seals of our arms to be affixed thereto.",
+          "Done at Paris, this third day of September in the year of our Lord, one thousand seven hundred and eighty-three.",
+          "D. HARTLEY (SEAL)",
+          "JOHN ADAMS (SEAL)",
+          "B. FRANKLIN (SEAL)",
+          "JOHN JAY (SEAL)"
+        ]
+      }
     ]
   },
   {
@@ -249,9 +336,16 @@ const JOURNAL_ENTRIES = [
         title: "William Franklin to Benjamin Franklin, 22 July [–6 August] 1784",
         image: "",
         imageAlt: "",
-        citation: "Franklin, William. \"William Franklin to Benjamin Franklin, 22 July [–6 August] 1784.\" Founders Online, National Archives.",
+        citation: "Franklin, William. \"William Franklin to Benjamin Franklin, 22 July [–6 August] 1784.\" Founders Online, National Archives. Transcription via Teaching American History.",
         url: "https://founders.archives.gov/documents/Franklin/01-42-02-0275",
-        note: "[Insert excerpt or explanation here]"
+        note: "[Insert explanation here]",
+        text: [
+          "Dear and Honoured Father,",
+          "Ever since the Termination of the unhappy Contest between Great Britain and America, I have been anxious to write to you, and to endeavour to revive that affectionate Intercourse and Connexion which till the Commencement of the late Troubles had been the Pride and Happiness of my Life. Uncertain, however, whether the decided and active Part I took in Opposition to the Measures you thought proper to adopt, might not have left some unfavourable Impressions on your Mind; or, if that should not be the Case, whether you might not have some political Reasons for avoiding such Correspondence while you retained your present Employ under the Congress, I was induced to postpone my Intention of writing till I could by some Means or other learn whether your Inclinations were likely to meet my Wishes in that respect. I was, besides, led to expect an Opportunity of a personal Interview from the Accounts I frequently heard from some of your Friends in London, and particularly from a Letter which Temple wrote to Mr. Whitefoord about a Twelvemonth ago, intimating that you had Thoughts of soon returning to America, and would probably visit England in your Way. In that Letter he likewise mentioned that he should have wrote to me, but that he was apprehensive it might, if known, excite Suspicions among some jealous People for whom you acted. This was an additional Motive for my delaying to write, as the Reason he gave why it was improper for him to write to me, operated equally against my writing to you or him, while in your present Situation. There are narrow illiberal Minds in all Parties. In that which I took, and on whose Account I have so much suffered, there have not been wanting some who have insinuated that my Conduct has been founded on Collusion with you, that one of us might succeed which ever Party should prevail. Similar Collusions, they say, were known to have existed between Father and Son during the civil Wars in England and Scotland. The Falsity of such Insinuation in our Case you well know, and I am happy that I can with Confidence appeal not only to you but to my God, that I have uniformly acted from a strong Sense of what I conceived my Duty to my King, and Regard to my Country, required. If I have been mistaken, I cannot help it. It is an Error of Judgment that the maturest Reflection I am capable of cannot recify; and I verily believe were the same Circumstances to occur again Tomorrow, my Conduct would be exactly similar to what it was heretofore, notwithstanding the cruel Sufferings, scandalous Neglects, and Ill-treatment which we poor unfortunate Loyalists have in general experienced.— On a Subject so disagreeable I have no Desire to say more, and I hope every thing which has happened relative to it may be mutually forgotten. Encouraged by what passed lately between you, and that good-hearted Man Colonel Wadsworth, I flatter myself that you are actuated by the same Disposition, and that my Advances towards a Renewal of our former affectionate Intercourse will be as acceptable to you as they are agreeable to myself.",
+          "It gave me great Pleasure to hear from the Colonel, Mrs. Montgomery, and others, that my Son, who owes so much to you for his Education and other Advantages, has conducted himself to your Satisfaction. The Character given of him by a Variety of Persons who have known him at Paris does him great Credit, and cannot fail to heighthen that natural Affection which always interests me in whatever concerns his Welfare. Please to give my Love to him, and let him know that I wish he would write to me soon, and inform me whether he received a Letter from Mr. Galloway some Months ago, inclosing a Paper belonging to you, as Mr. G is uneasy lest it has miscarried.",
+          "Now I have broken the Ice, many Things occur which I much want an Opportunity to mention; too many, indeed, for the Limits of a Letter, and some of them respecting private Family Affairs, of a very important Nature, that cannot well be adjusted without a personal Interview. I shall therefore, if you are not likely to be soon in England, be happy to have your Approbation to wait on you at Paris. In the mean Time I beg you to be assured of my constant Prayers for your Health and Happiness, and that I am, as ever,",
+          "Your very dutiful and affectionate Son"
+        ]
       }
     ]
   }
