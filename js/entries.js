@@ -30,8 +30,8 @@ const JOURNAL_ENTRIES = [
     title: "Upon the Stamp Act",
     event: "The Stamp Act takes effect (1 Nov. 1765)",
     context: [
-      "On November 1, 1765, the Stamp Act took effect in the American colonies. As a means to try and pay off the debt accumulated while protecting the colonies during the Seven Years’ War, the Stamp Act imposed taxes on newspapers, legal documents, and many other paper goods. After living in salutary neglect, colonists were angered by this new tax, especially since they had no direct representation in the British Parliament that enacted this law.",
-      "Across the colonies, protest movements had already emerged in opposition to the Stamp Act. In Boston, the Sons of Liberty targeted tax collectors and hanged effigies as an intimidation tactic. In Philadelphia, the Pennsylvania Gazette, a newspaper run by Benjamin Franklin, was suspended in protest of the Stamp Act. One week later, Franklin's partner David Hall issued news sheets of the Gazette on unstamped paper without a masthead to avoid the legal repercussions of the law. Overall, the Stamp Act acted as the kindling for rising tensions in the American colonies before the Revolution."
+      "On November 1, 1765, the Stamp Act took effect in the American colonies. As a means to try and pay off the debt accumulated while protecting the colonies during the Seven Years’ War, the Stamp Act imposed taxes on newspapers, legal documents, and many other paper goods (Soderlund, 2022). After living in salutary neglect, colonists were angered by this new tax, especially since they had no direct representation in the British Parliament that enacted this law (Soderlund, 2022).",
+      "Across the colonies, protest movements had already emerged in opposition to the Stamp Act. In Boston, the Sons of Liberty targeted tax collectors and hanged effigies as an intimidation tactic. In Philadelphia, the Pennsylvania Gazette, a newspaper run by Benjamin Franklin, was suspended in protest of the Stamp Act. One week later, Franklin's partner David Hall issued news sheets of the Gazette on unstamped paper without a masthead to avoid the legal repercussions of the law (No Stamped Paper To Be Had, 1765). Overall, the Stamp Act acted as the kindling for rising tensions in the American colonies before the Revolution."
     ],
     diary: [
       "This day hath brought much uneasiness upon my household. The inhabitants of His Majesty’s colonies find themselves much aggrieved at the news of the recent Stamp Act enacted by Parliament. Earlier this morning, many of my fellow merchants formed an agreement to not import any of His Majesty’s goods. I fear that my business now shall suffer, and that I may fail to provide for my family while this Act remains.",
@@ -65,14 +65,62 @@ const JOURNAL_ENTRIES = [
   },
   {
     id: "non-importation",
-    date: "1769-03-10",
-    dateLabel: "[Date], 1769",
+    date: "1769-03-15",
+    dateLabel: "15th March, 1769",
     title: "[Entry title]",
     event: "Philadelphia merchants adopt non-importation against the Townshend Acts",
-    context: "[Insert historical context here]",
+    context: [
+      "In the Summer of 1767, the British Parliament passed a new set of taxes known as the Townshend Acts which imposed import duties on everyday goods like glass, paper, and tea (Soderlund, 2022). Coming after the Stamp Act’s repeal a year earlier, the Townshend Acts reignited Colonial concerns regarding their taxation without representation in the British Parliament. In response, merchants began to organize non-importation agreements, refusing to import British goods in hopes of getting Parliament to repeal yet another tax on the colonies (Soderlund, 2022).",
+      "Although merchants in Boston and New York agreed to restrict British imports in 1768, Philadelphia merchants were hesitant to join the movement at first due to the potential economic consequences that it could have (Pitock, 2017; Soderlund, 2022). However, in March of 1769, Philadelphia merchants adopted their own non-importation agreement, and joined the broader colonial effort to get Parliament to repeal the Townshend Acts (Soderlund, 2022). The use of non-importation agreements throughout the colonies indicates another major increase in colonial resistance to British taxation, despite its potential impacts on the livelihoods of the merchants whose businesses depended upon trade with the British."
+    ],
     diary: [],
     documents: [
-      { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
+      {
+        title: "John Dickinson, Letters from a Farmer in Pennsylvania, Letter II (1767)",
+        image: "",
+        imageAlt: "",
+        citation: "Dickinson, John. Letters from a Farmer in Pennsylvania, Letter II, December 10, 1767. In The Writings of John Dickinson, edited by Paul Leicester Ford, 1:312–22. Philadelphia: Historical Society of Pennsylvania, 1895. Excerpt as edited by Robert M. S. McDonald, Teaching American History.",
+        url: "https://teachingamericanhistory.org/document/letters-from-a-farmer-in-pennsylvania/",
+        note: "[Insert explanation here]",
+        text: [
+          "My dear countrymen,",
+          "There is another late act of Parliament, which appears to me to be unconstitutional, and as destructive to the liberty of these colonies, as that mentioned in my last letter; that is, the act for granting the duties on paper, glass, etc.",
+          "The Parliament unquestionably possesses a legal authority to regulate the trade of Great Britain, and all her colonies. Such an authority is essential to the relation between a mother country and her colonies; and necessary for the common good of all. He, who considers these provinces as states distinct from the British Empire, has very slender notions of justice, or of their interests. We are but parts of a whole; and therefore there must exist a power somewhere to preside and preserve the connection in due order. This power is lodged in the Parliament; and we are as much dependent on Great Britain, as a perfectly free people can be on another.",
+          "I have looked over every statute relating to these colonies, from their first settlement to this time; and I find every one of them founded on this principle, till the Stamp Act administration. All before, are calculated to regulate trade, and preserve or promote a mutually beneficial intercourse between the several constituent parts of the empire; and though many of them imposed duties on trade, yet those duties were always imposed with design to restrain the commerce of one part, that was injurious to another, and thus to promote the general welfare. The raising a revenue thereby was never intended…. Never did the British Parliament, till the period above mentioned, think of imposing duties in America, FOR THE PURPOSE OF RAISING A REVENUE….",
+          "This I call an innovation; and a most dangerous innovation. It may perhaps be objected, that Great Britain has a right to lay what duties she pleases upon her exports, and it makes no difference to us, whether they are paid here or there.",
+          "To this I answer. These colonies require many things for their use, which the laws of Great Britain prohibit them from getting anywhere but from her. Such are paper and glass.",
+          "That we may legally be bound to pay any general duties on these commodities, relative to the regulation of trade, is granted; but we being obliged by the laws to take from Great Britain, any special duties imposed on their exportations to us only, with intention to raise a revenue from us only, are as much taxes, upon us, as those imposed by the Stamp Act….",
+          "Some persons perhaps may say, that this act lays us under no necessity to pay the duties imposed, because we may ourselves manufacture the articles on which they are laid; whereas by the Stamp Act no instrument of writing could be good, unless made on British paper, and that too stamped.",
+          "Such an objection amounts to no more than this, that the injury resulting to these colonies, from the total disuse of British paper and glass, will not be so afflicting as that which would have resulted from the total disuse of writing among them; for by that means even the Stamp Act might have been eluded. Why then was it universally detested by them as slavery itself? Because it presented to these devoted provinces nothing but a choice of calamities, embittered by indignities, each of which it was unworthy of freemen to bear. But is no injury a violation of right but the greatest injury? If… eluding the payment of the taxes imposed by the Stamp Act, would have subjected us to a more dreadful inconvenience, than… eluding the payment of those imposed by the late act; does it therefore follow, that the last is no violation of our rights, though it is calculated for the same purpose the other was, that is, to raise money upon us, WITHOUT OUR CONSENT?…",
+          "But the objectors may further say, that we shall suffer no injury at all by the disuse of British paper and glass. We might not, if we could make as much as we want. But can any man, acquainted with America, believe this possible? I am told there are but two or three glasshouses on this continent, and but very few paper mills; and suppose more should be erected, a long course of years must elapse, before they can be brought to perfection. This continent is a country of planters, farmers, and fishermen; not of manufacturers. The difficulty of establishing particular manufactures in such a country is almost insuperable. For one manufacture is connected with others in such a manner that it may be said to be impossible to establish one or two without establishing several others. The experience of many nations may convince us of this truth….",
+          "Great Britain has prohibited the manufacturing iron and steel in these colonies, without any objection being made to her right of doing it. The like right she must have to prohibit any other manufacture among us. Thus she is possessed of an undisputed precedent on that point. This authority, she will say, is founded on the original intention of settling these colonies; that is, that we should manufacture for them, and that they should supply her with materials. The equity of this policy, she will also say, has been universally acknowledged by the colonies, who never have made the least objection to statutes for that purpose; and will further appear by the mutual benefits flowing from this usage ever since the settlement of these colonies….",
+          "Here then, my dear countrymen, ROUSE yourselves, and behold the ruin hanging over your heads….",
+          "Upon the whole, the single question is, whether the Parliament can legally impose duties to be paid by the people of these colonies only, FOR THE SOLE PURPOSE OF RAISING A REVENUE, on commodities which she obliges us to take from her alone, or, in other words, whether the Parliament can legally take money out of our pockets, without our consent….",
+          "A Farmer"
+        ]
+      }
+    ]
+  },
+  {
+    id: "boston-massacre",
+    date: "1770-03-05",
+    dateLabel: "[Date] March, 1770",
+    title: "[Entry title]",
+    event: "British soldiers fire on a crowd in Boston (the Boston Massacre)",
+    context: [
+      "Following the passage of the Townshend Acts in 1767, the British sent around 4,000 British soldiers to Boston, Massachusetts in 1768 to enforce the law in a hub of colonial opposition and protests. Unfortunately, the presence of the British soldiers did not quell the opposition to British taxation, but it increased hostilities among the city’s inhabitants who viewed the soldiers as a direct threat to their freedom. Disputes between soldiers and civilians became common, creating a hostile environment throughout Boston.",
+      "In March of 1770, tensions erupted in the city when a crowd of colonists confronted a British soldier guarding the Custom House in Boston. Amidst the shouting, insults, and objects being thrown at the soldiers, British troops fired into the crowd, killing five colonists. The circumstances surrounding the shooting remained disputed as eyewitnesses provided conflicting accounts of what transpired, particularly surrounding whether Captain Preston ordered his soldiers to fire or whether they acted independently (Zabin, 2020). Nonetheless, the incident, which became known as the Boston Massacre, further increased colonial resentment towards the British. Patriot leaders used this event as propaganda to portray the British soldiers as aggressors, strengthening opposition to Britain’s military presence in the colonies (Revere, 1770)."
+    ],
+    diary: [],
+    documents: [
+      {
+        title: "Paul Revere, The Bloody Massacre Perpetrated in King Street (1770)",
+        image: "images/bloody-massacre-revere-1770.jpg",
+        imageAlt: "Hand-colored engraving by Paul Revere showing a line of British soldiers firing into a crowd of colonists on King Street, Boston, 1770",
+        citation: "Revere, Paul. The Bloody Massacre Perpetrated in King Street Boston on March 5th 1770 by a Party of the 29th Regt. Boston: Paul Revere, 1770. Engraving with watercolor. Library of Congress Prints and Photographs Division.",
+        url: "https://www.loc.gov/pictures/item/2008661777/",
+        note: "[Insert explanation here]"
+      }
     ]
   },
   {
@@ -81,7 +129,10 @@ const JOURNAL_ENTRIES = [
     dateLabel: "[Date] December, 1773",
     title: "[Entry title]",
     event: "The tea ship Polly is turned back from Philadelphia",
-    context: "[Insert historical context here]",
+    context: [
+      "In May of 1773, British Parliament passed the Tea Act to help the struggling British East India Company sell tea to the American colonies (Soderlund, 2022). Although the legislation lowered the price of legally imported tea to a point where it was cheaper than smuggled tea from the Netherlands, it maintained the existing tax imposed under the Townshend Acts, causing many colonists to view this as another attack by the British Parliament on the rights of colonists (Soderlund, 2022). Opposition to the Tea Act quickly spread throughout the colonies, and on December 16th, 1773, the opposition culminated in the Boston Tea Party (Soderlund, 2022).",
+      "Nine days later, the British tea ship Polly, commanded by Captain Samuel Ayres, arrived in Delaware Bay carrying tea that was meant for Philadelphia (Committee for Tarring and Feathering, 1773). Upon learning of this ship’s arrival in the bay, local opponents of the Tea Act organized to prevent the cargo from reaching its destination. In a public meeting, opponents of the ship’s arrival resolved that the tea could not be unloaded in Philadelphia, and that the Polly must turn around (Committee for Tarring and Feathering, 1773; Pitock, 2017). Ayres complied with the meeting’s decision, and the Polly departed with all of its cargo."
+    ],
     diary: [],
     documents: [
       {
@@ -181,18 +232,6 @@ const JOURNAL_ENTRIES = [
     dateLabel: "[Date] September, 1777",
     title: "[Entry title]",
     event: "The British Army enters and occupies Philadelphia",
-    context: "[Insert historical context here]",
-    diary: [],
-    documents: [
-      { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
-    ]
-  },
-  {
-    id: "meschianza",
-    date: "1778-05-18",
-    dateLabel: "[Date] May, 1778",
-    title: "[Entry title]",
-    event: "The Meschianza, a farewell fête for General Howe",
     context: "[Insert historical context here]",
     diary: [],
     documents: [
