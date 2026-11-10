@@ -165,7 +165,10 @@ const JOURNAL_ENTRIES = [
     dateLabel: "[Date] September, 1774",
     title: "[Entry title]",
     event: "The First Continental Congress meets at Carpenters' Hall",
-    context: "[Insert historical context here]",
+    context: [
+      "Following the Boston Tea Party in December of 1773, the British Parliament passed what colonists called the Intolerable Acts, a series of laws meant to punish Massachusetts for its actions (DuVal, 2026a). Among these laws, Boston Harbor was closed, and restrictions were placed on Massachusetts’ colonial government, measures intended to discourage further resistance from the Massachusetts colony (Soderlund, 2022). However, these measures managed to increase tensions between Britain and its American colonies, causing colonial leaders to begin organizing a meeting to coordinate a response to Parliament’s actions (DuVal, 2026a).",
+      "On September 5, 1774, delegates from twelve of the thirteen colonies gathered in Philadelphia for the First Continental Congress (DuVal, 2026a). Although the delegates differed over the appropriate response to British policies, they wanted to protect their rights as British subjects in response to Parliament’s recent actions (DuVal, 2026b). During the multi-week meeting, the Continental Congress adopted the Continental Association to establish restrictions on trade with Great Britain, and prepared a petition to King George III to have their grievances heard (DuVal, 2026b). Although independence was not the goal of the First Continental Congress, it certainly represented a major step in the colonies’ organized resistance to the British."
+    ],
     diary: [],
     documents: [
       {
@@ -184,7 +187,10 @@ const JOURNAL_ENTRIES = [
     dateLabel: "[Date] April, 1775",
     title: "[Entry title]",
     event: "News of Lexington and Concord reaches Philadelphia",
-    context: "[Insert historical context here]",
+    context: [
+      "In early 1775, tensions between the British and colonial resistance groups continued to rise. Following the First Continental Congress, colonial militias started to prepare for the possibility of an armed conflict by stockpiling weapons and ammunition (Soderlund, 2022). To prevent further resistance, British General Thomas Gage ordered British troops in Boston to march toward Concord, Massachusetts where colonial military supplies were reportedly being stored (DuVal, 2026b). Upon learning of the British plan, colonial riders like Paul Revere spread warnings of the approaching British soldiers, giving local militia forces time to prepare for the impending conflict.",
+      "On April 19, 1775, British troops encountered a group of militiamen in Lexington, Massachusetts. Amidst the confusion of the situation, a shot was fired, and the American Revolutionary War unofficially began (DuVal, 2026b). British soldiers opened fire, killing eight colonists, before continuing towards Concord where they would encounter additional colonial resistance. The colonists forced a British retreat, but as the British moved back towards Boston, colonial militiamen repeatedly attacked them along the route, inflicting heavy casualties in the British ranks (DuVal, 2026b). These battles marked the beginning of armed conflict between Britain and its American colonies, a significant escalation from the political and economic resistance employed by the colonies in the years leading up to the event."
+    ],
     diary: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
@@ -196,7 +202,10 @@ const JOURNAL_ENTRIES = [
     dateLabel: "[Date] January, 1776",
     title: "[Entry title]",
     event: "Thomas Paine's Common Sense is published in Philadelphia",
-    context: "[Insert historical context here]",
+    context: [
+      "After the battles of Lexington and Concord, armed conflict between Britain and the American colonies had begun. Despite the ongoing fighting, many colonists still hoped that their relationship with the British Crown could be reconciled, rather than pushing for full independence. The question of whether the colonies should remain under British rule continued even as the Second Continental Congress organized resistance under the Continental Army (DuVal, 2026b). In January of 1776, Thomas Paine, who had immigrated from England in 1774, published a pamphlet titled Common Sense in Philadelphia, advocating for American independence (Soderlund, 2022).",
+      "Paine’s pamphlet argued that the colonies had no reason to remain dependent upon the British government. He argued that ideas of independence and republicanism were not radical, but that they were common sense (DuVal, 2026c). By using accessible language, Paine’s arguments became understandable to ordinary colonists rather than just those who were wealthy and educated (Soderlund, 2022). The pamphlet quickly became popular, selling around 150,000 copies, and it helped to spread revolutionary ideals to a broader audience. In a time of such division, Common Sense helped to broaden popular support for independence, and it represented a significant turning point in the American Revolution."
+    ],
     diary: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
@@ -208,7 +217,10 @@ const JOURNAL_ENTRIES = [
     dateLabel: "[Date] July, 1776",
     title: "[Entry title]",
     event: "The Declaration of Independence is read publicly in the State House yard",
-    context: "[Insert historical context here]",
+    context: [
+      "After a year of armed conflict between Britain and the American colonies, support for independence from Britain continued to grow. On July 2, 1776, the Second Continental Congress voted for independence from Britain, and on July 4, Congress adopted the Declaration of Independence (Soderlund, 2022). Primarily authored by Thomas Jefferson, the declaration outlined the colonies’ grievances with King George III and declared the thirteen colonies independent states (DuVal, 2026c).",
+      "On July 8, 1776, crowds gathered in the yard of the Pennsylvania State House to hear the first public reading of the Declaration of Independence in Philadelphia. Colonel John Nixon read the document aloud and officially proclaimed the colonies separate from Great Britain (Pitock, 2017). Many colonists celebrated the news as the reading represented a significant turning point in the American Revolution, as the colonies formally announced their intention to separate from Britain. However, with the war now about independence, the divide between Patriots who supported independence and Loyalists who remained loyal to the British Crown became even greater."
+    ],
     diary: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
@@ -220,7 +232,10 @@ const JOURNAL_ENTRIES = [
     dateLabel: "[Date] June, 1777",
     title: "[Entry title]",
     event: "Pennsylvania passes the Test Act requiring oaths of allegiance",
-    context: "[Insert historical context here]",
+    context: [
+      "After the Declaration of Independence, tensions between Patriots and Loyalists continued rising throughout the colonies. As the war continued, the rebelling colonies became more and more concerned about those who remained loyal to the British Crown, particularly in their ability to provide assistance to the British (Duffy, 2016). To limit their impact, Pennsylvania passed a law in June 1777 known as the Test Act, a law that required white men over the age of eighteen to swear allegiance to Pennsylvania, and renounce any allegiance to the British crown (Duffy, 2016).",
+      "Under the Test Act, individuals who refused to take the oath would face significant restrictions on their rights as they could no longer vote, hold office, or buy and sell land (Duffy, 2016). The Test Act placed Loyalists in a difficult spot as it forced them to choose between their loyalty to Britain and the rights they possessed in Pennsylvania. The Test Act served as yet another example of the growing division between Patriots and Loyalists at the time of the Revolution and it demonstrated the risks associated with supporting Britain in their efforts."
+    ],
     diary: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
