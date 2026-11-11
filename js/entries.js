@@ -108,7 +108,7 @@ const JOURNAL_ENTRIES = [
     title: "[Entry title]",
     event: "British soldiers fire on a crowd in Boston (the Boston Massacre)",
     context: [
-      "Following the passage of the Townshend Acts in 1767, the British sent around 4,000 British soldiers to Boston, Massachusetts in 1768 to enforce the law in a hub of colonial opposition and protests. Unfortunately, the presence of the British soldiers did not quell the opposition to British taxation, but it increased hostilities among the city’s inhabitants who viewed the soldiers as a direct threat to their freedom. Disputes between soldiers and civilians became common, creating a hostile environment throughout Boston.",
+      "Following the passage of the Townshend Acts in 1767, the British sent around 2,000 British soldiers to Boston, Massachusetts in 1768 to enforce the law in a hub of colonial opposition and protests. Unfortunately, the presence of the British soldiers did not quell the opposition to British taxation, but it increased hostilities among the city’s inhabitants who viewed the soldiers as a direct threat to their freedom. Disputes between soldiers and civilians became common, creating a hostile environment throughout Boston.",
       "In March of 1770, tensions erupted in the city when a crowd of colonists confronted a British soldier guarding the Custom House in Boston. Amidst the shouting, insults, and objects being thrown at the soldiers, British troops fired into the crowd, killing five colonists. The circumstances surrounding the shooting remained disputed as eyewitnesses provided conflicting accounts of what transpired, particularly surrounding whether Captain Preston ordered his soldiers to fire or whether they acted independently (Zabin, 2020). Nonetheless, the incident, which became known as the Boston Massacre, further increased colonial resentment towards the British. Patriot leaders used this event as propaganda to portray the British soldiers as aggressors, strengthening opposition to Britain’s military presence in the colonies (Revere, 1770)."
     ],
     diary: [],
@@ -204,7 +204,7 @@ const JOURNAL_ENTRIES = [
     event: "Thomas Paine's Common Sense is published in Philadelphia",
     context: [
       "After the battles of Lexington and Concord, armed conflict between Britain and the American colonies had begun. Despite the ongoing fighting, many colonists still hoped that their relationship with the British Crown could be reconciled, rather than pushing for full independence. The question of whether the colonies should remain under British rule continued even as the Second Continental Congress organized resistance under the Continental Army (DuVal, 2026b). In January of 1776, Thomas Paine, who had immigrated from England in 1774, published a pamphlet titled Common Sense in Philadelphia, advocating for American independence (Soderlund, 2022).",
-      "Paine’s pamphlet argued that the colonies had no reason to remain dependent upon the British government. He argued that ideas of independence and republicanism were not radical, but that they were common sense (DuVal, 2026c). By using accessible language, Paine’s arguments became understandable to ordinary colonists rather than just those who were wealthy and educated (Soderlund, 2022). The pamphlet quickly became popular, selling around 150,000 copies, and it helped to spread revolutionary ideals to a broader audience. In a time of such division, Common Sense helped to broaden popular support for independence, and it represented a significant turning point in the American Revolution."
+      "Paine’s pamphlet argued that the colonies had no reason to remain dependent upon the British government. He argued that ideas of independence and republicanism were not radical, but that they were common sense (DuVal, 2026c). By using accessible language, Paine’s arguments became understandable to ordinary colonists rather than just those who were wealthy and educated (Soderlund, 2022). The pamphlet quickly became popular, selling more than 100,000 copies (Soderlund, 2022), and it helped to spread revolutionary ideals to a broader audience. In a time of such division, Common Sense helped to broaden popular support for independence, and it represented a significant turning point in the American Revolution."
     ],
     diary: [],
     documents: [
@@ -247,7 +247,10 @@ const JOURNAL_ENTRIES = [
     dateLabel: "[Date] September, 1777",
     title: "[Entry title]",
     event: "The British Army enters and occupies Philadelphia",
-    context: "[Insert historical context here]",
+    context: [
+      "After the Declaration of Independence in 1776, the British looked to suppress the rebellion and regain control of their colonies. In 1777, British General William Howe started a campaign to capture Philadelphia, the location of the Continental Congress and a center of the colonies’ resistance (Soderlund, 2022). Howe’s forces defeated General George Washington’s army at the Battle of Brandywine, granting the British a path to Philadelphia (Soderlund, 2022). As the British approached, the Continental Congress and many Patriots fled the city out of fear of living under British occupation (Soderlund, 2022).",
+      "In late September of 1777, the British marched into Philadelphia and took control of the city (Soderlund, 2022). While many Patriots fled, the Loyalists remaining in the city welcomed the arrival of British forces, and hoped that their occupation would restore order and bring the rebellion to a close. However, even though capturing Philadelphia represented a major victory for Britain, the Continental Army remained intact, allowing the colonies to continue their resistance (Soderlund, 2022)."
+    ],
     diary: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
@@ -259,7 +262,10 @@ const JOURNAL_ENTRIES = [
     dateLabel: "[Date] June, 1778",
     title: "[Entry title]",
     event: "The British evacuate Philadelphia; the Patriots return",
-    context: "[Insert historical context here]",
+    context: [
+      "After capturing the city in September 1777, the British occupied Philadelphia for roughly nine months (Soderlund, 2022). However, despite controlling the center of the colonial rebellion, the British had failed to eliminate George Washington’s Continental Army, allowing the rebellion to continue (Soderlund, 2022). Additionally, with the American victory at Saratoga in October 1777, the French entered the war on the side of the Americans in 1778 (Soderlund, 2022). With impending French military and naval involvement, the British reconsidered their strategy, deciding to concentrate their forces in New York City instead of continuing their occupation of Philadelphia (Soderlund, 2022).",
+      "On June 18, 1778, the British under General Henry Clinton evacuated Philadelphia and began their trek towards New York City (Soderlund, 2022). Fearing persecution from returning Patriot forces, thousands of Loyalists fled Philadelphia, seeking refuge with British forces in New York (Duffy, 2016). After the British evacuation, Patriot forces regained control of Philadelphia, and the Continental Congress was able to resume meeting normally. For the Loyalists who stayed in Philadelphia, their safety was put at great risk as they would once again be vulnerable to persecution from the returning Patriots (Duffy, 2016)."
+    ],
     diary: [],
     documents: [
       { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
@@ -271,7 +277,10 @@ const JOURNAL_ENTRIES = [
     dateLabel: "[Date] November, 1778",
     title: "[Entry title]",
     event: "Loyalists Abraham Carlisle and John Roberts are hanged for treason",
-    context: "[Insert historical context here]",
+    context: [
+      "After Patriot authorities reclaimed Philadelphia in 1778, they began to investigate Philadelphians who were suspected of aiding the British forces during their occupation of the city (Duffy, 2016). Among the accused were Abraham Carlisle, a Quaker carpenter who served under the British as a gatekeeper, and John Roberts, a Quaker mill owner who was believed to have assisted with British military operations (Duffy, 2016). Carlisle was responsible for granting passage to those traveling through British lines while Roberts was accused of guiding British forces and convincing individuals to join the British ranks (Duffy, 2016). Both men were arrested and charged with treason for their cooperation with the British (Duffy, 2016).",
+      "On November 4, 1778, Carlisle and Roberts were hanged in Philadelphia after being convicted of treason (Duffy, 2016; Galloway, 1931). The executions sparked massive controversy as Philadelphia residents petitioned for the men to be granted pardons. However, Pennsylvania’s government refused, and the men were executed despite these appeals (Duffy, 2016). Carlisle and Roberts were among the few individuals executed for treason in Pennsylvania during the war, showing just how harsh their punishment truly was. Their deaths became a symbol of the dire consequences associated with supporting the British in the war, and gave Loyalists yet another reason to fear for their safety in Philadelphia following the executions."
+    ],
     diary: [],
     documents: [
       {
@@ -294,7 +303,10 @@ const JOURNAL_ENTRIES = [
     dateLabel: "[Date] October, 1781",
     title: "[Entry title]",
     event: "News of Cornwallis's surrender at Yorktown reaches Philadelphia",
-    context: "[Insert historical context here]",
+    context: [
+      "By 1781, the Revolutionary War had been ongoing for more than six years. In the South, British General Charles Cornwallis led military campaigns that resulted in significant casualties at skirmishes like the Battle of Cowpens and the Battle of Guilford Courthouse (DuVal, 2026d). Following such costly campaigns, Cornwallis settled in Yorktown, Virginia as he awaited reinforcements from the British troops in New York. However, over 16,000 combined American and French forces under George Washington and Comte de Rochambeau marched to Virginia and surrounded Cornwallis (DuVal, 2026d). At the same time, the French navy gained control of the Chesapeake Bay, preventing the British from assisting Cornwallis by sea (DuVal, 2026d).",
+      "On October 19, 1781, after a multi-week siege filled with bombardment from the American and French forces, Cornwallis surrendered (Articles of Capitulation, 1781). With the British surrender, thousands of British soldiers became prisoners of war (Articles of Capitulation, 1781), a devastating blow to their military campaign in North America. Although the war did not immediately end after Cornwallis’ surrender, fighting between the British and the American colonies mostly came to a close and British leaders began pursuing peace negotiations."
+    ],
     diary: [],
     documents: [
       {
@@ -343,7 +355,10 @@ const JOURNAL_ENTRIES = [
     dateLabel: "[Date] September, 1783",
     title: "[Entry title]",
     event: "The Treaty of Paris ends the war",
-    context: "[Insert historical context here]",
+    context: [
+      "After their defeat at the Battle of Yorktown in October 1781, support in Britain for continuing the Revolutionary War effort was dwindling (Peplow, 2013). Although the war did continue through smaller battles in the West Indies and other parts of North America, Cornwallis’ defeat caused British leaders to negotiate for peace (Peplow, 2013). Negotiations between British and American representatives began in Paris in 1782, and the two sides reached a preliminary agreement in November of the same year (Paris Peace Treaty, 1783).",
+      "On September 3, 1783, representatives from both sides officially signed the Treaty of Paris, and the American Revolution formally ended (Paris Peace Treaty, 1783). In the treaty, the British officially recognized the United States as an independent nation, and recognized US territory extending westward to the Mississippi River (Paris Peace Treaty, 1783; Soderlund, 2022). The treaty also protected Loyalists as Congress agreed to prevent any further persecution for their allegiance during the Revolution and recommend that state governments restore Loyalist property (Paris Peace Treaty, 1783). However, this restoration was not guaranteed, and as a result, many of the remaining Loyalists who decided not to reintegrate into American life fled to Britain or one of its remaining colonies (Duffy, 2016)."
+    ],
     diary: [],
     documents: [
       {
@@ -382,8 +397,11 @@ const JOURNAL_ENTRIES = [
     date: "1784-08-06",
     dateLabel: "[Date], 1784",
     title: "[Entry title]",
-    event: "[Hutchinson's fate after the war — exile, compensation claim, etc.]",
-    context: "[Insert historical context here]",
+    event: "Loyalists leave the United States after the war",
+    context: [
+      "Following the conclusion of the Revolutionary War in 1783, Loyalists faced uncertainty about their future in the newly formed United States. Throughout the Revolution, Loyalists were subject to heavy persecution including violence, imprisonment, and confiscation of their property (DuVal, 2026a; Duffy, 2016). Although the Treaty of Paris promised an end to further persecutions and confiscations, many Loyalists remained concerned about their safety and their ability to reintegrate into the newly independent country (Paris Peace Treaty, 1783; Duffy, 2016). As a result, thousands of Loyalists remaining in the colonies at the end of the war decided to flee from the United States and pursue new lives under British rule (Duffy, 2016).",
+      "Many Loyalists relocated to areas of British North America while others traveled across the Atlantic to the English mainland in hopes of rebuilding their lives in the country they so devoutly supported throughout the war. However, having abandoned much of their property and wealth, many Loyalists would struggle in their new homes as they had difficulties finding employment, rebuilding their businesses, or recovering the wealth they had lost during the war. Overall, the British loss during the American Revolution had devastating consequences for Loyalists, and forced them to rebuild their lives in completely new surroundings."
+    ],
     diary: [],
     documents: [
       {
