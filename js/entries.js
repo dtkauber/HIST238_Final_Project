@@ -81,7 +81,7 @@ const JOURNAL_ENTRIES = [
         imageAlt: "",
         citation: "Dickinson, John. Letters from a Farmer in Pennsylvania, Letter II, December 10, 1767. In The Writings of John Dickinson, edited by Paul Leicester Ford, 1:312–22. Philadelphia: Historical Society of Pennsylvania, 1895. Excerpt as edited by Robert M. S. McDonald, Teaching American History.",
         url: "https://teachingamericanhistory.org/document/letters-from-a-farmer-in-pennsylvania/",
-        note: "[Insert explanation here]",
+        note: "John Dickinson wrote Letters from a Farmer in Pennsylvania as a means of opposing the Townshend Acts passed by the British Parliament in 1767. In Letter II, Dickinson notes the difference between Parliament’s authority to regulate trade in the colonies and its claimed authority to tax them to raise revenue. Dickinson argues that these taxes violated colonial rights because they took money from colonists without their consent. Given the colonies’ reliance on Britain for glass and paper, Dickinson also argues that avoiding these duties would be impractical, as colonial manufacturers could not produce enough to meet demand. Overall, the letter illustrates how the Townshend Acts renewed colonial concerns about taxation without consent and the limits of Parliament’s authority over the colonies.",
         text: [
           "My dear countrymen,",
           "There is another late act of Parliament, which appears to me to be unconstitutional, and as destructive to the liberty of these colonies, as that mentioned in my last letter; that is, the act for granting the duties on paper, glass, etc.",
@@ -119,7 +119,7 @@ const JOURNAL_ENTRIES = [
         imageAlt: "Hand-colored engraving by Paul Revere showing a line of British soldiers firing into a crowd of colonists on King Street, Boston, 1770",
         citation: "Revere, Paul. The Bloody Massacre Perpetrated in King Street Boston on March 5th 1770 by a Party of the 29th Regt. Boston: Paul Revere, 1770. Engraving with watercolor. Library of Congress Prints and Photographs Division.",
         url: "https://www.loc.gov/pictures/item/2008661777/",
-        note: "[Insert explanation here]"
+        note: "The Bloody Massacre was an engraving created by Paul Revere in 1770. In the engraving, an organized line of British soldiers fire into a crowd of civilians in a way that presented the shooting as a coordinated attack on innocent colonists. Additionally, the engraving also depicts a building with the name Butcher’s Hall, a symbol of British brutality, and a dog, which has been interpreted as a symbol of the colonies’ loyalty to the British which is being betrayed by this massacre. Eyewitness accounts differ over whether the soldiers were ordered to fire, but overall, Revere’s engraving portrays the British as aggressors, and was used as propaganda to ignite resentment towards the British across the colonies."
       }
     ]
   },
@@ -141,7 +141,7 @@ const JOURNAL_ENTRIES = [
         imageAlt: "Printed broadside titled To the Delaware Pilots, signed by the Committee for Tarring and Feathering, Philadelphia, 1773",
         citation: "Committee for Tarring and Feathering. To the Delaware Pilots. Philadelphia, 1773. Broadside. Library of Congress, Rare Book and Special Collections Division.",
         url: "https://www.loc.gov/item/rbpe.1430330a/",
-        note: "[Insert explanation here]",
+        note: "To the Delaware Pilots was a broadside written by the Committee for Tarring and Feathering in December 1773 to prevent the tea ship Polly from reaching Philadelphia. The document threatens the ship’s captain as well as any pilots who assist him with tarring and feathering. A notice at the bottom of the document also requests people to gather at the State House to determine how to respond to the Polly's arrival. Overall, this document demonstrates the dangers of supporting the British in the colonies at this time, showing the difficulty that many faced when their livelihood depended on trade with Britain.",
         text: [
           "TO THE DELAWARE PILOTS.",
           "THE Regard we have for your Characters, and our Desire to promote your future Peace and Safety, are the Occasion of this Third Address to you.",
@@ -177,7 +177,7 @@ const JOURNAL_ENTRIES = [
         imageAlt: "British cartoon showing a crowd of Bostonians forcing tea down the throat of a tarred and feathered customs officer beneath a Liberty Tree",
         citation: "Dawe, Philip (attributed). London: Robert Sayer and John Bennett, 1774. Library of Congress Prints and Photographs Division.",
         url: "https://www.loc.gov/item/2004673302/",
-        note: "[Insert explanation here]"
+        note: "The Bostonian’s Paying the Excise-Man, or Tarring & Feathering was a print published in London in October 1774 attributed to Philip Dawe. The image depicts five men forcing a customs official to drink tea after being tarred and feathered. Behind the men, a noose hangs from the “Liberty Tree” and people aboard a ship dump tea overboard. The image was used to connect the colonies’ resistance to the British with violence, painting the colonists as aggressors in this situation. With the noose hanging from the Liberty Tree, there is a contradiction between the colonists’ demands for liberty and how they treat those on the British side. Overall, the portrayal of colonial treatment of British officials shows the dangers that many Loyalists feared while living in the colonies before the Revolution."
       }
     ]
   },
