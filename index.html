@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=IM+Fell+DW+Pica:ital@0;1&family=Pinyon+Script&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=22">
+  <link rel="stylesheet" href="css/style.css?v=25">
 </head>
 <body>
 
@@ -86,7 +86,8 @@
       <!-- Entry + context -->
       <div class="entry-layout">
 
-        <!-- Left: the diary page -->
+        <!-- Left: the diary page, with its papers & prints beneath -->
+        <div class="entry-main">
         <article class="diary-page parchment" id="diary-page" aria-live="polite">
           <div class="diary-header">
             <p class="diary-date" id="entry-date"></p>
@@ -102,17 +103,18 @@
           </div>
         </article>
 
-        <!-- Right: context, documents -->
+          <section class="context-card parchment" id="documents-card">
+            <h4 class="card-title">Papers &amp; Prints of the Times</h4>
+            <div id="entry-documents"></div>
+          </section>
+        </div>
+
+        <!-- Right: context -->
         <aside class="context-panel">
 
           <section class="context-card parchment">
             <h4 class="card-title">The Events of the Day</h4>
             <div id="entry-context"></div>
-          </section>
-
-          <section class="context-card parchment" id="documents-card">
-            <h4 class="card-title">Papers &amp; Prints of the Times</h4>
-            <div id="entry-documents"></div>
           </section>
 
         </aside>
@@ -137,6 +139,13 @@
         <li>"The Paris Peace Treaty of September 3, 1783." <em>The Avalon Project</em>, Lillian Goldman Law Library, Yale Law School. <a href="https://avalon.law.yale.edu/18th_century/paris.asp" target="_blank" rel="noopener">avalon.law.yale.edu</a>.</li>
         <li>Treaty of Paris, 1783, final page. General Records of the United States Government, Record Group 11. National Archives.</li>
         <li>Franklin, William. "William Franklin to Benjamin Franklin, 22 July [–6 August] 1784." <em>Founders Online</em>, National Archives. <a href="https://founders.archives.gov/documents/Franklin/01-42-02-0275" target="_blank" rel="noopener">founders.archives.gov</a>.</li>
+        <li>Doolittle, Amos, engraver, after Ralph Earl. <em>The Battle of Lexington, April 19th 1775</em> (Plate I) and <em>The Engagement at the North Bridge in Concord</em> (Plate III). New Haven: Amos Doolittle, December 1775. Hand-colored engravings. New York Public Library. <a href="https://commons.wikimedia.org/wiki/File:Battle_of_Lexington.jpeg" target="_blank" rel="noopener">commons.wikimedia.org</a>.</li>
+        <li>Paine, Thomas. <em>Common Sense; Addressed to the Inhabitants of America, on the Following Interesting Subjects</em>. Philadelphia: R. Bell, 1776. Title page. Library of Congress Prints and Photographs Division. <a href="https://www.loc.gov/pictures/item/2006681076/" target="_blank" rel="noopener">loc.gov</a>.</li>
+        <li>Candidus [James Chalmers]. <em>Plain Truth; Addressed to the Inhabitants of America, Containing Remarks on a Late Pamphlet, Entitled Common Sense</em>. Philadelphia: R. Bell, 1776. <a href="https://archive.org/details/plaintruthaddres00chal" target="_blank" rel="noopener">archive.org</a>.</li>
+        <li>Continental Congress. <em>In Congress, July 4, 1776. A Declaration by the Representatives of the United States of America, in General Congress Assembled</em>. Philadelphia: John Dunlap, 1776. Broadside. National Archives and Records Administration. <a href="https://commons.wikimedia.org/wiki/File:Dunlap_Broadside_(Declaration_of_Independence)_-_NARA_-_301682.jpg" target="_blank" rel="noopener">commons.wikimedia.org</a>.</li>
+        <li>[Hutchinson, Thomas.] <em>Strictures upon the Declaration of the Congress at Philadelphia; in a Letter to a Noble Lord, &amp;c.</em> London, 1776. <a href="https://oll.libertyfund.org/pages/1776-hutchinson-strictures-upon-the-declaration-of-independence" target="_blank" rel="noopener">oll.libertyfund.org</a>.</li>
+        <li>Pennsylvania General Assembly. An Act, Obliging the Male White Inhabitants of This State to Give Assurances of Allegiance to the Same, and for Other Purposes Therein Mentioned. Chapter 21 (enacted June 13, 1777), §§ 2 and 4. In <em>The Acts of the General Assembly, of the Common-Wealth of Pennsylvania, Enacted into Laws, Since the Declaration of Independence on the Fourth Day of July, A.D. 1776</em>, 37–39. Philadelphia: John Dunlap, 1779. <a href="https://firearmslaw.duke.edu/laws/1777-pa-laws-61-an-act-obliging-the-male-white-inhabitants-of-this-state-to-give-assurances-of-allegiance-to-the-same-and-for-other-purposes-therein-mentioned-ch-xxi-c2a7c2a7-2-4" target="_blank" rel="noopener">firearmslaw.duke.edu</a>.</li>
+        <li>Faden, William, after Nicholas Scull and George Heap. <em>A Plan of the City and Environs of Philadelphia</em>. London: W. Faden, March 12, 1777. Engraved map. Library of Congress, via the World Digital Library. <a href="https://www.wdl.org/en/item/9563/" target="_blank" rel="noopener">wdl.org</a>.</li>
         <li class="placeholder">[Insert additional primary sources here]</li>
       </ul>
 
@@ -167,7 +176,7 @@
     <a href="#top">Return to the Title Page</a>
   </footer>
 
-  <script src="js/entries.js?v=22"></script>
-  <script src="js/app.js?v=22"></script>
+  <script src="js/entries.js?v=25"></script>
+  <script src="js/app.js?v=25"></script>
 </body>
 </html>

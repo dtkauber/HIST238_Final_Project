@@ -102,22 +102,26 @@
 
       const hasText = doc.text && doc.text.length > 0;
 
-      // Show an image if there is one; a text-only document needs no image slot.
-      if (doc.image || !hasText) {
-        const figure = el("figure", "document-figure");
-        if (doc.image) {
-          const img = document.createElement("img");
-          img.src = doc.image;
-          img.alt = doc.imageAlt || doc.title;
-          img.loading = "lazy";
-          // Clicking the image opens it full size in a new tab.
-          const link = el("a");
-          link.href = doc.image;
-          link.target = "_blank";
-          link.rel = "noopener";
-          link.title = "View full size";
-          link.appendChild(img);
-          figure.appendChild(link);
+      // A document may have one image (doc.image) or several that share one
+      // explanation (doc.images = [{ src, alt }]). A text-only document needs no image slot.
+      const pics = doc.images || (doc.image ? [{ src: doc.image, alt: doc.imageAlt }] : []);
+      if (pics.length || !hasText) {
+        const figure = el("figure", "document-figure" + (pics.length > 1 ? " multi" : ""));
+        if (pics.length) {
+          pics.forEach((pic) => {
+            const img = document.createElement("img");
+            img.src = pic.src;
+            img.alt = pic.alt || doc.title;
+            img.loading = "lazy";
+            // Clicking an image opens it full size in a new tab.
+            const link = el("a");
+            link.href = pic.src;
+            link.target = "_blank";
+            link.rel = "noopener";
+            link.title = "View full size";
+            link.appendChild(img);
+            figure.appendChild(link);
+          });
         } else {
           figure.appendChild(el("div", "image-placeholder", "[Insert image here]"));
         }

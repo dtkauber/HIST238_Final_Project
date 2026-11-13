@@ -193,7 +193,16 @@ const JOURNAL_ENTRIES = [
     ],
     diary: [],
     documents: [
-      { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
+      {
+        title: "Amos Doolittle, The Battle of Lexington (Plate I) and The Engagement at the North Bridge in Concord (Plate III)",
+        images: [
+          { src: "images/doolittle-battle-of-lexington-1775.jpg", alt: "Hand-colored engraving of British regulars firing on Lexington militia on the town common, with wounded colonists lying in the foreground" },
+          { src: "images/doolittle-north-bridge-concord-1775.jpg", alt: "Hand-colored engraving of the fight at the North Bridge in Concord, with British regulars and Provincials firing across the river amid smoke" }
+        ],
+        citation: "Doolittle, Amos, engraver, after Ralph Earl. The Battle of Lexington, April 19th 1775, Plate I, and The Engagement at the North Bridge in Concord, Plate III, of four. New Haven: Amos Doolittle, December 1775. Hand-colored engravings. New York Public Library.",
+        url: "https://commons.wikimedia.org/wiki/File:Battle_of_Lexington.jpeg",
+        note: "[Insert explanation here]"
+      }
     ]
   },
   {
@@ -208,7 +217,32 @@ const JOURNAL_ENTRIES = [
     ],
     diary: [],
     documents: [
-      { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
+      {
+        title: "Common Sense; Addressed to the Inhabitants of America (title page, 1776)",
+        image: "images/common-sense-title-page-1776.jpg",
+        imageAlt: "Printed title page of Thomas Paine's Common Sense, Philadelphia, printed and sold by R. Bell, in Third Street, 1776",
+        citation: "Paine, Thomas. Common Sense; Addressed to the Inhabitants of America, on the Following Interesting Subjects. Philadelphia: R. Bell, 1776. Title page. Library of Congress Prints and Photographs Division.",
+        url: "https://www.loc.gov/pictures/item/2006681076/",
+        note: "[Insert explanation here]"
+      },
+      {
+        title: "Candidus, Plain Truth; Addressed to the Inhabitants of America (1776)",
+        image: "",
+        imageAlt: "",
+        citation: "Candidus [James Chalmers]. Plain Truth; Addressed to the Inhabitants of America, Containing Remarks on a Late Pamphlet, Entitled Common Sense. Philadelphia: R. Bell, 1776. Excerpts as transcribed by Alpha History; full text at the Internet Archive.",
+        url: "https://archive.org/details/plaintruthaddres00chal",
+        note: "[Insert explanation here]",
+        text: [
+          "I have now before me the pamphlet entitled Common Sense, on which I shall remark with freedom and candour…",
+          "Liberty, says the great Montesquieu, is a right of doing whatever the laws permit; and if a citizen could do what they forbid, he would no longer be possessed of liberty, because all his fellow citizens would have the same power. In the beginning of his pamphlet the author asserts, that society in every state is a blessing. This in the sincerity of my heart I deny; for it is supreme misery to be associated with those who, to promote their ambitious purposes, flagitiously pervert the ends of political society…",
+          "His first indecent attack is against the English constitution which, with all its imperfections, is, and ever will be, the pride and envy of mankind. To this panegyric involuntarily our author subscribes, by granting individuals to be safer in England, than in any other part of Europe. He indeed attributes this … to the constitution: to such contemptible subterfuge is our author reduced.",
+          "I would ask him why did not the constitution of the people afford them superior safety in the reign of Richard III, Henry VIII and other tyrannic princes? Many pages might indeed be filled with encomiums [praises] bestowed on our excellent constitution by illustrious authors of different nations…",
+          "Until the present unhappy period, Great Britain has afforded to all mankind the most perfect proof of her wise, lenient and magnanimous government of the Colonies, the proofs to which we already have alluded, viz. our supreme felicity and amazing increase…",
+          "But, says the author, the most powerful argument is that nothing but independence (that is, a continental form of government) can keep the peace of the continent, and preserve it inviolate from civil wars. I dread the event of a reconciliation with Britain, as it is more than probable it will be foiled by revolt somewhere; the consequences of which may be far more fatal than all the malice of Britain…",
+          "This piece [Common Sense], though it has taken a popular name and implies that the contents are obvious and adapted to the understandings of the bulk of the people, is so far from meriting the title it has attained, that in my opinion it holds principles equally inconsistent with learned and common sense. I know not the author, nor am I anxious to learn his name or character…",
+          "It is the glory of a free country to enjoy a free press, and of this, that the sentiments and opinions of the meanest are brought to view equally with those of the greatest… the rich and high born are not the monopolisers of wisdom and virtue; on the contrary, these qualities are more often to be found among the middling class in every country, who… in reality become better acquainted with the true interests of the society in which they live."
+        ]
+      }
     ]
   },
   {
@@ -223,7 +257,33 @@ const JOURNAL_ENTRIES = [
     ],
     diary: [],
     documents: [
-      { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
+      {
+        title: "The Dunlap Broadside of the Declaration of Independence (July 1776)",
+        image: "images/dunlap-broadside-1776.jpg",
+        imageAlt: "The first printing of the Declaration of Independence, a large broadside printed in Philadelphia by John Dunlap on the night of July 4, 1776",
+        citation: "Continental Congress. In Congress, July 4, 1776. A Declaration by the Representatives of the United States of America, in General Congress Assembled. Philadelphia: John Dunlap, 1776. Broadside. National Archives and Records Administration (the Library of Congress holds another copy).",
+        url: "https://commons.wikimedia.org/wiki/File:Dunlap_Broadside_(Declaration_of_Independence)_-_NARA_-_301682.jpg",
+        note: "[Insert explanation here]"
+      },
+      {
+        title: "Thomas Hutchinson, Strictures upon the Declaration of the Congress at Philadelphia (1776)",
+        image: "",
+        imageAlt: "",
+        citation: "[Hutchinson, Thomas.] Strictures upon the Declaration of the Congress at Philadelphia; in a Letter to a Noble Lord, &c. London, 1776. Excerpts as transcribed by Alpha History; full text at the Online Library of Liberty.",
+        url: "https://oll.libertyfund.org/pages/1776-hutchinson-strictures-upon-the-declaration-of-independence",
+        note: "[Insert explanation here]",
+        text: [
+          "They begin, my Lord, with a false hypothesis: that the colonies are one distinct people, and the kingdom [of England is] another, connected by political bands. The Colonies, politically considered, never were a distinct people from the kingdom. There never has been but one political band, and that was just the same before the first colonists emigrated as it has been ever since…",
+          "The supreme legislative authority [the British parliament] hath essential right and is indispensably bound to keep all parts of the Empire entire, until there may be a separation consistent with the general good of the Empire, of which good, from the nature of government, this authority must be the sole judge.",
+          "I should therefore be impertinent if I attempted to show in what case a whole people may be justified in rising up in opposition to the powers of government, altering or abolishing them and substituting, in whole or in part, new powers in their stead; or in what sense all men are created equal; or how far life, liberty, and the pursuit of happiness may be said to be unalienable. Only I could ask the delegates of Maryland, Virginia and the Carolinas how their constituents justify the depriving more than an hundred thousand Africans of their rights to liberty and the pursuit of happiness, and in some degree to their lives, if these rights are so absolutely unalienable.",
+          "Nor shall I attempt to refute the absurd notions of government, or to expose the equivocal or inconclusive expressions contained in this Declaration; but rather to show the false representation made of the facts… alleged to be the evidence of injuries and usurpations, and the special motives to rebellion. There are many of them… instead of justifying, they rather aggravate the criminality of this Revolt.",
+          "The first in order, ‘He has refused his assent to laws the most wholesome and necessary for the public good’, is of so general a nature that it is not possible to conjecture to what laws or to what colonies it refers. I remember no laws which any colony has been restrained from passing so as to cause any complaint of grievance, except those for issuing a fraudulent paper currency and making it a legal tender…",
+          "‘He has forbidden his Governors to pass Laws of immediate and pressing Importance…’. Laws, my Lord, are in force in the Colonies, as soon as a Governor has given his assent, and remain in force until the King’s disallowance is signed. Some laws may have their full effect before the King’s pleasure can be known…",
+          "‘He has dissolved Representative Houses repeatedly for opposing with manly firmness his Invasions of the Rights of the People’. Contention between governors and their assemblies have caused dissolutions of such assemblies, I suppose, in all the colonies, in former as well as later times. I recollect but one instance of the dissolution of an Assembly by special order from the King, and that was in Massachusetts Bay [in 1774]…",
+          "The professed reason for publishing the Declaration was ‘a decent respect to the opinions of mankind’, yet the real design was to reconcile the people of America to that independence, which they had been made to believe was not intended. This design has too well succeeded. The people have not observed the fallacy in reasoning… nor the absurdity of making the governed to be governors.",
+          "From a disposition to receive willingly complaints against rulers, facts misrepresented have passed without examining. Discerning men have concealed their sentiments, because under the present government in America, no man may, by writing or speaking, contradict any part of this Declaration without being deemed an enemy to his country, and exposed to the rage and fury of the populace."
+        ]
+      }
     ]
   },
   {
@@ -238,7 +298,20 @@ const JOURNAL_ENTRIES = [
     ],
     diary: [],
     documents: [
-      { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
+      {
+        title: "An Act, Obliging the Male White Inhabitants of This State to Give Assurances of Allegiance (1777)",
+        image: "",
+        imageAlt: "",
+        citation: "Pennsylvania General Assembly. An Act, Obliging the Male White Inhabitants of This State to Give Assurances of Allegiance to the Same, and for Other Purposes Therein Mentioned. Chapter 21 (enacted June 13, 1777), §§ 2 and 4. In The Acts of the General Assembly, of the Common-Wealth of Pennsylvania, Enacted into Laws, Since the Declaration of Independence on the Fourth Day of July, A.D. 1776, 37–39. Philadelphia: John Dunlap, 1779.",
+        url: "https://firearmslaw.duke.edu/laws/1777-pa-laws-61-an-act-obliging-the-male-white-inhabitants-of-this-state-to-give-assurances-of-allegiance-to-the-same-and-for-other-purposes-therein-mentioned-ch-xxi-c2a7c2a7-2-4",
+        note: "[Insert explanation here]",
+        text: [
+          "CHAPTER XXI. An ACT, obliging the male white inhabitants of this State to give assurances of allegiance to the same, and for other purposes therein mentioned…",
+          "Sect. 2. Be it enacted by the Representatives of the Freemen of the Common-Wealth of Pennsylvania in General Assembly met, and by the authority of the same, That all male white inhabitants of this State, (except of the counties of Bedford, Northumberland and Westmoreland) above the age of Eighteen years, shall, on or before the First day of July next, take and subscribe the following oath or affirmation before some one of the Justices of the Peace of the city or county where they shall respectively inhabit; and the inhabitants of the said counties of Bedford, Northumberland and Westmoreland, above the said age, shall, on or before the first day of August next, take and subscribe the said oath or affirmation, before some one of the Justices of the said three Counties last mentioned; which they shall respectively inhabit; and the said Justice shall give a Certificate thereof to every such person; and the said oath or affirmation shall be as followeth, viz.",
+          "‘I ________ do swear, or affirm, that I renounce and refuse all allegiance to George the Third, King of Great-Britain, his heirs and successors; and that I will be faithful and bear true allegiance to the Common-Wealth of Pennsylvania as a free and independent State; and that I will not at any time do, or cause to be done, any matter or thing that will be prejudicial or injurious to the freedom and independence thereof, as declared by Congress; and also that I will discover and make known, to some one Justice of the Peace of the said State, all treasons, or traitorous conspiracies, which I now know or hereafter shall know to be formed against this or any of the United States of America.’…",
+          "Sect. 4. And be it further enacted by the authority aforesaid, That every person above the age aforesaid, refusing or neglecting to take and subscribe the said oath or affirmation, shall during the time of such neglect or refusal, be incapable of holding any office or place of trust in this State, serving on juries, sueing for any debts, electing or being elected, buying, selling or transferring any lands, tenements or hereditaments, and shall be disarmed by the Lieutenant or Sub-Lieutenants of the city or counties respectively."
+        ]
+      }
     ]
   },
   {
@@ -253,7 +326,14 @@ const JOURNAL_ENTRIES = [
     ],
     diary: [],
     documents: [
-      { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
+      {
+        title: "William Faden, A Plan of the City and Environs of Philadelphia (1777)",
+        image: "images/faden-plan-of-philadelphia-1777.jpg",
+        imageAlt: "Engraved map of Philadelphia and the surrounding countryside, with the city grid on the Delaware River and nearby roads and fortifications",
+        citation: "Faden, William, after Nicholas Scull and George Heap. A Plan of the City and Environs of Philadelphia. London: W. Faden, March 12, 1777. Engraved map. Library of Congress, via the World Digital Library.",
+        url: "https://www.wdl.org/en/item/9563/",
+        note: "[Insert explanation here]"
+      }
     ]
   },
   {

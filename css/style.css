@@ -569,6 +569,17 @@ section.parchment.page-section {
   margin: 0;
 }
 
+/* Several images sharing one explanation sit side by side */
+.document-figure.multi {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+}
+.document-figure.multi a { flex: 1 1 0; min-width: 0; }
+@media (max-width: 560px) { .document-figure.multi { flex-direction: column; } }
+
+.entry-main { display: flex; flex-direction: column; gap: 28px; min-width: 0; }
+
 /* ---------- Bibliography ---------- */
 .bibliography {
   list-style: none;
