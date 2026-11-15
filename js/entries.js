@@ -201,7 +201,7 @@ const JOURNAL_ENTRIES = [
         ],
         citation: "Doolittle, Amos, engraver, after Ralph Earl. The Battle of Lexington, April 19th 1775, Plate I, and The Engagement at the North Bridge in Concord, Plate III, of four. New Haven: Amos Doolittle, December 1775. Hand-colored engravings. New York Public Library.",
         url: "https://commons.wikimedia.org/wiki/File:Battle_of_Lexington.jpeg",
-        note: "[Insert explanation here]"
+        note: "The Battle of Lexington and The Engagement at the North Bridge in Concord were engravings created by Amos Doolittle after artwork by Ralph Earl and published in December 1775. The Lexington print (left) depicts the British firing on dispersing colonial militiamen with wounded colonists lying on the ground. The Concord print (right) shows British troops and colonial militia exchanging fire at the North Bridge. The British would suffer heavy casualties as they retreated back to Boston due to colonial fire along the way. The two prints illustrate the opening battles of the Revolutionary war, and for Loyalists, these battles raised questions about the possibility of reconciliation with the British and how loyalty to the British might work during a full-scale war."
       }
     ]
   },
@@ -218,20 +218,12 @@ const JOURNAL_ENTRIES = [
     diary: [],
     documents: [
       {
-        title: "Common Sense; Addressed to the Inhabitants of America (title page, 1776)",
-        image: "images/common-sense-title-page-1776.jpg",
-        imageAlt: "Printed title page of Thomas Paine's Common Sense, Philadelphia, printed and sold by R. Bell, in Third Street, 1776",
-        citation: "Paine, Thomas. Common Sense; Addressed to the Inhabitants of America, on the Following Interesting Subjects. Philadelphia: R. Bell, 1776. Title page. Library of Congress Prints and Photographs Division.",
-        url: "https://www.loc.gov/pictures/item/2006681076/",
-        note: "[Insert explanation here]"
-      },
-      {
         title: "Candidus, Plain Truth; Addressed to the Inhabitants of America (1776)",
         image: "",
         imageAlt: "",
         citation: "Candidus [James Chalmers]. Plain Truth; Addressed to the Inhabitants of America, Containing Remarks on a Late Pamphlet, Entitled Common Sense. Philadelphia: R. Bell, 1776. Excerpts as transcribed by Alpha History; full text at the Internet Archive.",
         url: "https://archive.org/details/plaintruthaddres00chal",
-        note: "[Insert explanation here]",
+        note: "Plain Truth was a pamphlet written by Loyalist James Chalmers, writing as “Candidus,” in response to Thomas Paine’s Common Sense in 1776. Chalmers argued that independence would bring instability to the colonies and that reconciliation with the British offered the best chance for the colonies to experience the liberty they sought. Chalmers defended the British government and argued that a democratic government would not provide greater freedom, as Paine argued. Finally, Chalmers warned the colonies that they would struggle trying to separate from Britain because of the considerable power difference between the two. Overall, the pamphlet illustrates opposition to independence within the colonies and shows the idea that Loyalists believed they’d be better off maintaining a connection to Britain.",
         text: [
           "I have now before me the pamphlet entitled Common Sense, on which I shall remark with freedom and candour…",
           "Liberty, says the great Montesquieu, is a right of doing whatever the laws permit; and if a citizen could do what they forbid, he would no longer be possessed of liberty, because all his fellow citizens would have the same power. In the beginning of his pamphlet the author asserts, that society in every state is a blessing. This in the sincerity of my heart I deny; for it is supreme misery to be associated with those who, to promote their ambitious purposes, flagitiously pervert the ends of political society…",
@@ -258,20 +250,12 @@ const JOURNAL_ENTRIES = [
     diary: [],
     documents: [
       {
-        title: "The Dunlap Broadside of the Declaration of Independence (July 1776)",
-        image: "images/dunlap-broadside-1776.jpg",
-        imageAlt: "The first printing of the Declaration of Independence, a large broadside printed in Philadelphia by John Dunlap on the night of July 4, 1776",
-        citation: "Continental Congress. In Congress, July 4, 1776. A Declaration by the Representatives of the United States of America, in General Congress Assembled. Philadelphia: John Dunlap, 1776. Broadside. National Archives and Records Administration (the Library of Congress holds another copy).",
-        url: "https://commons.wikimedia.org/wiki/File:Dunlap_Broadside_(Declaration_of_Independence)_-_NARA_-_301682.jpg",
-        note: "[Insert explanation here]"
-      },
-      {
         title: "Thomas Hutchinson, Strictures upon the Declaration of the Congress at Philadelphia (1776)",
         image: "",
         imageAlt: "",
         citation: "[Hutchinson, Thomas.] Strictures upon the Declaration of the Congress at Philadelphia; in a Letter to a Noble Lord, &c. London, 1776. Excerpts as transcribed by Alpha History; full text at the Online Library of Liberty.",
         url: "https://oll.libertyfund.org/pages/1776-hutchinson-strictures-upon-the-declaration-of-independence",
-        note: "[Insert explanation here]",
+        note: "Strictures Upon the Declaration of the Congress at Philadelphia was a pamphlet published in 1776 by Thomas Hutchinson, the former royal governor of Massachusetts. In it, Hutchinson challenges the Declaration of Independence, arguing that its grievances do not accurately reflect Britain’s actions and are not sufficient to justify independence. Hutchinson defends Parliament’s ability to tax the colonies and make laws governing them and argues that King George III is not a tyrant. He also claims that colonial leaders sought independence before the controversial taxes were introduced, but used these grievances to shift public opinion against Britain. Overall, the pamphlet represents a Loyalist interpretation of the colonies' declaration of independence, showing how they felt the colonies' rebellion was unjustified.",
         text: [
           "They begin, my Lord, with a false hypothesis: that the colonies are one distinct people, and the kingdom [of England is] another, connected by political bands. The Colonies, politically considered, never were a distinct people from the kingdom. There never has been but one political band, and that was just the same before the first colonists emigrated as it has been ever since…",
           "The supreme legislative authority [the British parliament] hath essential right and is indispensably bound to keep all parts of the Empire entire, until there may be a separation consistent with the general good of the Empire, of which good, from the nature of government, this authority must be the sole judge.",
@@ -304,7 +288,7 @@ const JOURNAL_ENTRIES = [
         imageAlt: "",
         citation: "Pennsylvania General Assembly. An Act, Obliging the Male White Inhabitants of This State to Give Assurances of Allegiance to the Same, and for Other Purposes Therein Mentioned. Chapter 21 (enacted June 13, 1777), §§ 2 and 4. In The Acts of the General Assembly, of the Common-Wealth of Pennsylvania, Enacted into Laws, Since the Declaration of Independence on the Fourth Day of July, A.D. 1776, 37–39. Philadelphia: John Dunlap, 1779.",
         url: "https://firearmslaw.duke.edu/laws/1777-pa-laws-61-an-act-obliging-the-male-white-inhabitants-of-this-state-to-give-assurances-of-allegiance-to-the-same-and-for-other-purposes-therein-mentioned-ch-xxi-c2a7c2a7-2-4",
-        note: "[Insert explanation here]",
+        note: "An Act, Obliging the Male White Inhabitants of This State to Give Assurances of Allegiance was passed by Pennsylvania’s General Assembly in June of 1777. The act required white men older than eighteen to renounce allegiance to King George III and pledge loyalty to Pennsylvania as an independent state. Those who refused to comply had restrictions placed on their rights including being barred from voting, holding public office, or buying and selling land. Overall, the act illustrates the pressure that was placed on Loyalists during the war as they were forced to either abandon their loyalty to Britain or face restrictions placed on their livelihoods.",
         text: [
           "CHAPTER XXI. An ACT, obliging the male white inhabitants of this State to give assurances of allegiance to the same, and for other purposes therein mentioned…",
           "Sect. 2. Be it enacted by the Representatives of the Freemen of the Common-Wealth of Pennsylvania in General Assembly met, and by the authority of the same, That all male white inhabitants of this State, (except of the counties of Bedford, Northumberland and Westmoreland) above the age of Eighteen years, shall, on or before the First day of July next, take and subscribe the following oath or affirmation before some one of the Justices of the Peace of the city or county where they shall respectively inhabit; and the inhabitants of the said counties of Bedford, Northumberland and Westmoreland, above the said age, shall, on or before the first day of August next, take and subscribe the said oath or affirmation, before some one of the Justices of the said three Counties last mentioned; which they shall respectively inhabit; and the said Justice shall give a Certificate thereof to every such person; and the said oath or affirmation shall be as followeth, viz.",
@@ -327,12 +311,16 @@ const JOURNAL_ENTRIES = [
     diary: [],
     documents: [
       {
-        title: "William Faden, A Plan of the City and Environs of Philadelphia (1777)",
-        image: "images/faden-plan-of-philadelphia-1777.jpg",
-        imageAlt: "Engraved map of Philadelphia and the surrounding countryside, with the city grid on the Delaware River and nearby roads and fortifications",
-        citation: "Faden, William, after Nicholas Scull and George Heap. A Plan of the City and Environs of Philadelphia. London: W. Faden, March 12, 1777. Engraved map. Library of Congress, via the World Digital Library.",
-        url: "https://www.wdl.org/en/item/9563/",
-        note: "[Insert explanation here]"
+        title: "Elizabeth Drinker, Journal entry for September 26, 1777",
+        image: "",
+        imageAlt: "",
+        citation: "Drinker, Elizabeth Sandwith. Extracts from the Journal of Elizabeth Drinker, from 1759 to 1807, A.D. Edited by Henry D. Biddle. Philadelphia: J. B. Lippincott Company, 1889, entry for September 26, 1777.",
+        url: "https://archive.org/details/extractsfromjou00dringoog",
+        note: "Elizabeth Drinker’s journal entry for September 26, 1777 describes the British army’s arrival in Philadelphia. She records that 2,000 to 3,000 British troops entered through the city without opposition. She also noted that the British did not steal any goods as they entered the city. Her account shows the pleasure that Loyalists felt when the British first arrived in the city. With British protection, Loyalists no longer feared violence or disorder from the Patriots, and they could live their lives somewhat normally.",
+        text: [
+          "Sept. 26. Well! here are ye English in earnest; about 2 or 3000 came in through Second street, without opposition or interruption — no plundering on ye one side or ye other. What a satisfaction would it be to our dear absent friends could they but be informed of it; our end of ye Town has appeared the greater part of this day like ye first day of ye week. I understand that Barnhill, Hysham, and some others are taken up. It is recommended to ye inhabitants to continue to assist in guarding ye Town each night for some time yet. Cornwallis came with those troops to day — Gen'l Howe is not yet come in.",
+          "Rich'd Adams brought me this afternoon my Henry's letter from Potts-Grove. This has been a very fine day, tho' rather cool."
+        ]
       }
     ]
   },
@@ -348,7 +336,20 @@ const JOURNAL_ENTRIES = [
     ],
     diary: [],
     documents: [
-      { title: "[Insert document here]", image: "", imageAlt: "", citation: "[Citation]", url: "", note: "" }
+      {
+        title: "Grace Growden Galloway, Diary entries for June 17–19, 1778",
+        image: "",
+        imageAlt: "",
+        citation: "Galloway, Grace Growden. \"Diary of Grace Growden Galloway, Kept at Philadelphia from June 17th, 1778 to July 1st, 1779.\" Edited by Raymond C. Werner. Pennsylvania Magazine of History and Biography 55, no. 1 (1931): 35–94. The list of visitors who called on each day is omitted here; bracketed words are the editor's or mine.",
+        url: "https://journals.psu.edu/pmhb/article/download/28217/27973",
+        note: "Grace Growden Galloway’s diary entries for June 17-19, 1778 describe the personal effects of the British evacuating Philadelphia. On June 17, Galloway explains that her husband and daughter left Philadelphia as the British prepared to evacuate. The next day, American troops entered the city. On June 19, Charles Willson Peale told Galloway that he must take control of her house for the state. The entries in Galloway’s diary show just how quickly the Patriots threatened the property and security of Loyalists in Philadelphia. Without British protection, Loyalists faced uncertainty about their property and safety, which may have also caused families to separate.",
+        text: [
+          "[Wednesday, June 17] This even parted with my dear Husband & child ye 17.",
+          "Thursday ye 18th. This day ye American Troops came into Town.",
+          "Friday ye 19th. [I] was warned by Peal [Charles Willson Peale, one of the agents for confiscated estates] that he must take possession of my house for ye state.",
+          "[Editor's note: Although the first entry covers June 17, 1778, it was evidently written on the following day.]"
+        ]
+      }
     ]
   },
   {
@@ -369,7 +370,7 @@ const JOURNAL_ENTRIES = [
         imageAlt: "",
         citation: "Galloway, Grace Growden. \"Diary of Grace Growden Galloway.\" Edited by Raymond C. Werner. Pennsylvania Magazine of History and Biography 55, no. 1 (1931): 32–94, at 56.",
         url: "https://journals.psu.edu/pmhb/article/download/28217/27973",
-        note: "[Insert explanation here]",
+        note: "Grace Growden Galloway’s diary entry from November 4, 1778 describes the executions of John Roberts and Abraham Carlile. Following the executions, Galloway explains that her surroundings were gloomy and she recounts an encounter with Benjamin Chew, a former attorney general of Pennsylvania who was arrested under suspicion of Loyalist sympathies during the Revolution. She explained that Chew’s behavior was disrespectful and cold, leaving her feeling shocked and isolated. Overall, Galloway’s account shows the fear and social isolation that potentially came with Loyalist life after the British evacuated Pennsylvania.",
         text: [
           "November ye 4th 1778",
           "This day John Roberts, & Abraham Carlile ware executed: all things are gloomy went to Neighbour Eddy's she came home to Night but I was call'd home to see ben Chew, but his behavior was so cold Nay disrespectful to Me that I was quite shocked: & wished I had not seen him he has alter'd ever since Mr G was going home in short he was scarce civil I have no friends"
@@ -395,7 +396,7 @@ const JOURNAL_ENTRIES = [
         imageAlt: "",
         citation: "\"Articles of Capitulation; October 18, 1781.\" The Avalon Project, Lillian Goldman Law Library, Yale Law School.",
         url: "https://avalon.law.yale.edu/18th_century/art_of_cap_1781.asp",
-        note: "[Insert explanation here]",
+        note: "The Articles of Capitulation established the terms for the British surrender at Yorktown in October 1781. The agreement forced Cornwallis’ forces to surrender to the American and French forces as prisoners of war and give up their military supplies, including their weapons. The agreement’s proposed Article X also requested that any Americans who joined the British army and were captured at Yorktown and Gloucester be protected from any punishment. However, the request was denied as it was deemed a matter for civil authorities rather than a wartime issue. Overall, the document describes Britain’s major military defeat and continued uncertainty for its American supporters whose protection from the Crown was becoming more and more limited.",
         text: [
           "Articles of Capitulation",
           "Settled between his Excellency General Washington, Commander-in-Chief of the combined Forces of America and France; his Excellency the Count de Rochambeau, Lieutenant-General of the Armies of the King of France, Great Cross of the royal and military Order of St. Louis, commanding the auxiliary troops of his Most Christian Majesty in America; and his Excellency the Count de Grasse, Lieutenant-General of the Naval Armies of his Most Christian Majesty, Commander of the Order of St. Louis, Commander-in-Chief of the Naval Army of France in the Chesapeake, on the one Part; and the Right Honorable Earl Cornwallis, Lieutenant-General of his Britannic Majesty's Forces, commanding the Garrisons of York and Gloucester; and Thomas Symonds, Esquire, commanding his Britannic Majesty's Naval Forces in York River in Virginia, on the other Part.",
@@ -447,7 +448,7 @@ const JOURNAL_ENTRIES = [
         imageAlt: "Final page of the handwritten Treaty of Paris, 1783, with the signatures and wax seals of David Hartley, John Adams, Benjamin Franklin, and John Jay",
         citation: "\"The Paris Peace Treaty of September 3, 1783.\" The Avalon Project, Lillian Goldman Law Library, Yale Law School. Image: final page of the treaty, General Records of the United States Government, National Archives.",
         url: "https://avalon.law.yale.edu/18th_century/paris.asp",
-        note: "[Insert explanation here]",
+        note: "The Definitive Treaty of Peace, or the Treaty of Paris, was signed on September 3, 1783, formally ending the Revolutionary War between Britain and the new United States of America. Britain recognized the United States as a new independent nation and established new borders on the North American continent. The treaty also addressed the treatment of Loyalists. Article five of the treaty forced Congress to recommend that state legislatures give confiscated property back to its original Loyalist owner, and Article six prohibited further confiscations and prosecutions based on a person’s loyalty during the war. Unfortunately for Loyalists, this “recommendation” did not guarantee that their losses would be recovered, and overall, although the treaty established independence for the United States, Loyalists were still left uncertain about their place in this new nation.",
         text: [
           "The Definitive Treaty of Peace 1783",
           "In the name of the most holy and undivided Trinity.",
@@ -490,7 +491,7 @@ const JOURNAL_ENTRIES = [
         imageAlt: "",
         citation: "Franklin, William. \"William Franklin to Benjamin Franklin, 22 July [–6 August] 1784.\" Founders Online, National Archives. Transcription via Teaching American History.",
         url: "https://founders.archives.gov/documents/Franklin/01-42-02-0275",
-        note: "[Insert explanation here]",
+        note: "William Franklin wrote this letter in 1784 to restore his relationship with his father, Benjamin Franklin, after supporting different sides during the Revolution. William was a Loyalist and former royal governor of New Jersey, and now that the war had ended, he hoped that he could renew his relationship with his father who played a key diplomatic role for the colonies during the Revolution. However, William continued to defend his loyalty to the British and explained that he acted according to his duty to his king and country, noting that he would make the same decisions again. William wrote this letter from London after leaving America in 1782. Overall, William’s letter illustrates the divide that the Revolution caused amongst families as well as within communities, and shows one of the many fates that Loyalists experienced following the conclusion of the war.",
         text: [
           "Dear and Honoured Father,",
           "Ever since the Termination of the unhappy Contest between Great Britain and America, I have been anxious to write to you, and to endeavour to revive that affectionate Intercourse and Connexion which till the Commencement of the late Troubles had been the Pride and Happiness of my Life. Uncertain, however, whether the decided and active Part I took in Opposition to the Measures you thought proper to adopt, might not have left some unfavourable Impressions on your Mind; or, if that should not be the Case, whether you might not have some political Reasons for avoiding such Correspondence while you retained your present Employ under the Congress, I was induced to postpone my Intention of writing till I could by some Means or other learn whether your Inclinations were likely to meet my Wishes in that respect. I was, besides, led to expect an Opportunity of a personal Interview from the Accounts I frequently heard from some of your Friends in London, and particularly from a Letter which Temple wrote to Mr. Whitefoord about a Twelvemonth ago, intimating that you had Thoughts of soon returning to America, and would probably visit England in your Way. In that Letter he likewise mentioned that he should have wrote to me, but that he was apprehensive it might, if known, excite Suspicions among some jealous People for whom you acted. This was an additional Motive for my delaying to write, as the Reason he gave why it was improper for him to write to me, operated equally against my writing to you or him, while in your present Situation. There are narrow illiberal Minds in all Parties. In that which I took, and on whose Account I have so much suffered, there have not been wanting some who have insinuated that my Conduct has been founded on Collusion with you, that one of us might succeed which ever Party should prevail. Similar Collusions, they say, were known to have existed between Father and Son during the civil Wars in England and Scotland. The Falsity of such Insinuation in our Case you well know, and I am happy that I can with Confidence appeal not only to you but to my God, that I have uniformly acted from a strong Sense of what I conceived my Duty to my King, and Regard to my Country, required. If I have been mistaken, I cannot help it. It is an Error of Judgment that the maturest Reflection I am capable of cannot recify; and I verily believe were the same Circumstances to occur again Tomorrow, my Conduct would be exactly similar to what it was heretofore, notwithstanding the cruel Sufferings, scandalous Neglects, and Ill-treatment which we poor unfortunate Loyalists have in general experienced.— On a Subject so disagreeable I have no Desire to say more, and I hope every thing which has happened relative to it may be mutually forgotten. Encouraged by what passed lately between you, and that good-hearted Man Colonel Wadsworth, I flatter myself that you are actuated by the same Disposition, and that my Advances towards a Renewal of our former affectionate Intercourse will be as acceptable to you as they are agreeable to myself.",
