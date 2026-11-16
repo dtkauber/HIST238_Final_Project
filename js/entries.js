@@ -67,13 +67,17 @@ const JOURNAL_ENTRIES = [
     id: "non-importation",
     date: "1769-03-15",
     dateLabel: "15th March, 1769",
-    title: "[Entry title]",
+    title: "An Agreement Most Troubling",
     event: "Philadelphia merchants adopt non-importation against the Townshend Acts",
     context: [
       "In the Summer of 1767, the British Parliament passed a new set of taxes known as the Townshend Acts which imposed import duties on everyday goods like glass, paper, and tea (Soderlund, 2022). Coming after the Stamp Act’s repeal a year earlier, the Townshend Acts reignited Colonial concerns regarding their taxation without representation in the British Parliament. In response, merchants began to organize non-importation agreements, refusing to import British goods in hopes of getting Parliament to repeal yet another tax on the colonies (Soderlund, 2022).",
       "Although merchants in Boston and New York agreed to restrict British imports in 1768, Philadelphia merchants were hesitant to join the movement at first due to the potential economic consequences that it could have (Pitock, 2017; Soderlund, 2022). However, in March of 1769, Philadelphia merchants adopted their own non-importation agreement, and joined the broader colonial effort to get Parliament to repeal the Townshend Acts (Soderlund, 2022). The use of non-importation agreements throughout the colonies indicates another major increase in colonial resistance to British taxation, despite its potential impacts on the livelihoods of the merchants whose businesses depended upon trade with the British."
     ],
-    diary: [],
+    diary: [
+      "I find myself troubled once more as these Townshend duties have provoked the discontent of my fellow merchants. Across the colonies, agreements have been made to cease the importation of British goods until Parliament repeals this act, and now, Philadelphia has adopted a similar agreement. I had hoped the repeal of the Stamp Act would restore peace to these glorious colonies, yet the new taxes have only brought further resentment towards His Majesty. This new agreement is sure to bring hardship upon myself and my household, and I fear there will be no end.",
+      "I have examined my accounts, wondering how I shall gather revenue should trade with our mother country remain interrupted, and I am much concerned. My fellow colonists insist that we must endure this struggle to preserve our liberties, but how will I now provide bread for my family? In Mr. Dickinson’s writings, he has said that these duties threaten our liberties, but had he thought about how this protest threatens our households? I fear that this agreement may put even further strain upon our relationship with our mother country.",
+      "I also grow concerned that my fellow merchants may treat me harshly if I speak too freely against this new agreement. My loyalty to the King hath now become a cause for my neighbors to question my character. I pray that Parliament will reconsider their newest duties so that we do not further damage our relationship with the Crown, but until then, I can only remain hopeful, and must find a way to provide for those who depend upon me."
+    ],
     documents: [
       {
         title: "John Dickinson, Letters from a Farmer in Pennsylvania, Letter II (1767)",
@@ -370,7 +374,7 @@ const JOURNAL_ENTRIES = [
         imageAlt: "",
         citation: "Galloway, Grace Growden. \"Diary of Grace Growden Galloway.\" Edited by Raymond C. Werner. Pennsylvania Magazine of History and Biography 55, no. 1 (1931): 32–94, at 56.",
         url: "https://journals.psu.edu/pmhb/article/download/28217/27973",
-        note: "Grace Growden Galloway’s diary entry from November 4, 1778 describes the executions of John Roberts and Abraham Carlile. Following the executions, Galloway explains that her surroundings were gloomy and she recounts an encounter with Benjamin Chew, a former attorney general of Pennsylvania who was arrested under suspicion of Loyalist sympathies during the Revolution. She explained that Chew’s behavior was disrespectful and cold, leaving her feeling shocked and isolated. Overall, Galloway’s account shows the fear and social isolation that potentially came with Loyalist life after the British evacuated Pennsylvania.",
+        note: "Grace Growden Galloway’s diary entry from November 4, 1778 describes the executions of John Roberts and Abraham Carlile. Following the executions, Galloway explains that her surroundings were gloomy and she recounts an encounter with Benjamin Chew, a former attorney general of Pennsylvania who was arrested under suspicion of Loyalist sympathies during the Revolution. She explained that Chew’s behavior was disrespectful and cold, leaving her feeling shocked and isolated. Overall, Galloway’s account shows the fear and social isolation that potentially came with Loyalist life after the British evacuated Philadelphia.",
         text: [
           "November ye 4th 1778",
           "This day John Roberts, & Abraham Carlile ware executed: all things are gloomy went to Neighbour Eddy's she came home to Night but I was call'd home to see ben Chew, but his behavior was so cold Nay disrespectful to Me that I was quite shocked: & wished I had not seen him he has alter'd ever since Mr G was going home in short he was scarce civil I have no friends"
