@@ -200,14 +200,18 @@ const JOURNAL_ENTRIES = [
   {
     id: "lexington",
     date: "1775-04-24",
-    dateLabel: "[Date] April, 1775",
-    title: "[Entry title]",
+    dateLabel: "24th April, 1775",
+    title: "A Battle in Boston",
     event: "News of Lexington and Concord reaches Philadelphia",
     context: [
       "In early 1775, tensions between the British and colonial resistance groups continued to rise. Following the First Continental Congress, colonial militias started to prepare for the possibility of an armed conflict by stockpiling weapons and ammunition (Soderlund, 2022). To prevent further resistance, British General Thomas Gage ordered British troops in Boston to march toward Concord, Massachusetts where colonial military supplies were reportedly being stored (DuVal, 2026b). Upon learning of the British plan, colonial riders like Paul Revere spread warnings of the approaching British soldiers, giving local militia forces time to prepare for the impending conflict.",
       "On April 19, 1775, British troops encountered a group of militiamen in Lexington, Massachusetts. Amidst the confusion of the situation, a shot was fired, and the American Revolutionary War unofficially began (DuVal, 2026b). British soldiers opened fire, killing eight colonists, before continuing towards Concord where they would encounter additional colonial resistance. The colonists forced a British retreat, but as the British moved back towards Boston, colonial militiamen repeatedly attacked them along the route, inflicting heavy casualties in the British ranks (DuVal, 2026b). These battles marked the beginning of armed conflict between Britain and its American colonies, a significant escalation from the political and economic resistance employed by the colonies in the years leading up to the event."
     ],
-    diary: [],
+    diary: [
+      "Dreadful news hath reached Philadelphia once again. Fighting between His Majesty’s soldiers and colonial militiamen occurred at Lexington and Concord in Massachusetts. Reports tell of His Majesty’s troops marching from Boston to seize military stores, meeting militiamen in battle, and of heavy bloodshed as the troops retreated to Boston. I know little more of these encounters, yet I cannot escape the fear that our complaints have now become something far more terrible. The violence I hoped would be prevented hath brought His Majesty’s subjects into battle against one another.",
+      "I still remain faithful to His Majesty, but my loyalty means little when I consider the households mourning their dead. My neighbors speak eagerly of resisting the British troops, whilst I can only think of the suffering that continued conflict will bring. Is there truly no other way to settle our grievances? Must we take up arms? I cannot approve of this resistance to the King’s authority, yet I fear that each new death may turn more colonists against the Crown.",
+      "I fear that if this fighting spreads, my household can no longer be assured of safety. My neighbors may soon expect every man to declare his allegiance, and my silence will no longer protect me from their suspicion. I consider myself to be a Pennsylvanian and a faithful subject to the Crown, but these attachments seem impossible to hold together. I pray that peace may still be restored, but I fear that this conflict has destroyed what we have already built."
+    ],
     documents: [
       {
         title: "Amos Doolittle, The Battle of Lexington (Plate I) and The Engagement at the North Bridge in Concord (Plate III)",
