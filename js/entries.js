@@ -264,14 +264,18 @@ const JOURNAL_ENTRIES = [
   {
     id: "independence",
     date: "1776-07-08",
-    dateLabel: "[Date] July, 1776",
-    title: "[Entry title]",
+    dateLabel: "8th July, 1776",
+    title: "A Stranger in My Own Home",
     event: "The Declaration of Independence is read publicly in the State House yard",
     context: [
       "After a year of armed conflict between Britain and the American colonies, support for independence from Britain continued to grow. On July 2, 1776, the Second Continental Congress voted for independence from Britain, and on July 4, Congress adopted the Declaration of Independence (Soderlund, 2022). Primarily authored by Thomas Jefferson, the declaration outlined the colonies’ grievances with King George III and declared the thirteen colonies independent states (DuVal, 2026c).",
       "On July 8, 1776, crowds gathered in the yard of the Pennsylvania State House to hear the first public reading of the Declaration of Independence in Philadelphia. Colonel John Nixon read the document aloud and officially proclaimed the colonies separate from Great Britain (Pitock, 2017). Many colonists celebrated the news as the reading represented a significant turning point in the American Revolution, as the colonies formally announced their intention to separate from Britain. However, with the war now about independence, the divide between Patriots who supported independence and Loyalists who remained loyal to the British Crown became even greater."
     ],
-    diary: [],
+    diary: [
+      "On this day, I stood amongst my fellow colonists in the State House Yard as we listened to Mr. John Nixon read the Declaration of Independence. The Congress hath declared these colonies free from British rule, casting aside our allegiance to His Majesty. My neighbors greeted the reading with great approval, yet I could not force myself to celebrate. This dreaded separation hath now been proclaimed, and my hope for reconciliation seems further away than ever.",
+      "I listened with extreme uneasiness as the Declaration’s text accused the King of injuries against these colonies. I cannot deny that we have suffered, yet I cannot accept that these grievances justify our separation from the Crown entirely. The declaration speaks of liberty and the rights of man, but I wonder what protection shall remain for those who remain loyal to His Majesty? Must I surrender my beliefs to enjoy the freedoms my neighbors now celebrate? No declaration from this Congress may undo this allegiance I have held throughout my life.",
+      "As the crowd in the State House Yard dispersed, I returned home without the same expressions of joy as many of my fellow colonists. I have lived amongst these citizens for years, yet today, I did not feel as though I was one of them. My family, property, and relationships bind me to Philadelphia, but my duty binds me to His Majesty. I know not what place remains for me in this city, yet I pray that my neighbors may let me live peacefully amongst them, though I fear my loyalty may now become an offence against this country I call home."
+    ],
     documents: [
       {
         title: "Thomas Hutchinson, Strictures upon the Declaration of the Congress at Philadelphia (1776)",
@@ -297,14 +301,18 @@ const JOURNAL_ENTRIES = [
   {
     id: "test-act",
     date: "1777-06-13",
-    dateLabel: "[Date] June, 1777",
-    title: "[Entry title]",
+    dateLabel: "13th June, 1777",
+    title: "A Test of Faith",
     event: "Pennsylvania passes the Test Act requiring oaths of allegiance",
     context: [
       "After the Declaration of Independence, tensions between Patriots and Loyalists continued rising throughout the colonies. As the war continued, the rebelling colonies became more and more concerned about those who remained loyal to the British Crown, particularly in their ability to provide assistance to the British (Duffy, 2016). To limit their impact, Pennsylvania passed a law in June 1777 known as the Test Act, a law that required white men over the age of eighteen to swear allegiance to Pennsylvania, and renounce any allegiance to the British crown (Duffy, 2016).",
       "Under the Test Act, individuals who refused to take the oath would face significant restrictions on their rights as they could no longer vote, hold office, or buy and sell land (Duffy, 2016). The Test Act placed Loyalists in a difficult spot as it forced them to choose between their loyalty to Britain and the rights they possessed in Pennsylvania. The Test Act served as yet another example of the growing division between Patriots and Loyalists at the time of the Revolution and it demonstrated the risks associated with supporting Britain in their efforts."
     ],
-    diary: [],
+    diary: [
+      "I find myself beneath much distress after hearing news of the Pennsylvania Assembly’s newest act. I must now renounce my loyalty to His Majesty and pledge my allegiance to the free, independent state of Pennsylvania. Those who refuse shall relinquish the right to vote amongst other cruel punishments. I had feared the day when my loyalty would punish me, yet I merely hoped that living peacefully amongst my neighbors might protect me from such treatment. It seems that shall no longer be the case.",
+      "Of particular concern is the provision preventing those who refuse the oath from suing for debts. I have examined the sums owed to me and now wonder how I shall recover them if I am refused payment? My own creditors shall continue to demand what I owe, regardless of if the courts permit me to collect what I am owed. Thus, my livelihood may depend on declaring an allegiance that I do not approve of. How can those who speak so proudly of liberty require a man to deny his beliefs?",
+      "I must take this oath by the first of July, yet I cannot bring myself to renounce my allegiance to His Majesty whom I have been a faithful servant to all these years. Alas, I also cannot dismiss the hardships that this refusal may bring upon my household once more. I find little comfort in my home this evening, as I prepare to make a decision that endangers my security. I pray for guidance, for I know not how to protect my conscience and my household."
+    ],
     documents: [
       {
         title: "An Act, Obliging the Male White Inhabitants of This State to Give Assurances of Allegiance (1777)",
