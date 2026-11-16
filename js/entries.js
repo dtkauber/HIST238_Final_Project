@@ -223,15 +223,19 @@ const JOURNAL_ENTRIES = [
   },
   {
     id: "common-sense",
-    date: "1776-01-10",
-    dateLabel: "[Date] January, 1776",
-    title: "[Entry title]",
+    date: "1776-02-25",
+    dateLabel: "25th February, 1776",
+    title: "A Pamphlet Most Dangerous",
     event: "Thomas Paine's Common Sense is published in Philadelphia",
     context: [
       "After the battles of Lexington and Concord, armed conflict between Britain and the American colonies had begun. Despite the ongoing fighting, many colonists still hoped that their relationship with the British Crown could be reconciled, rather than pushing for full independence. The question of whether the colonies should remain under British rule continued even as the Second Continental Congress organized resistance under the Continental Army (DuVal, 2026b). In January of 1776, Thomas Paine, who had immigrated from England in 1774, published a pamphlet titled Common Sense in Philadelphia, advocating for American independence (Soderlund, 2022).",
       "Paine’s pamphlet argued that the colonies had no reason to remain dependent upon the British government. He argued that ideas of independence and republicanism were not radical, but that they were common sense (DuVal, 2026c). By using accessible language, Paine’s arguments became understandable to ordinary colonists rather than just those who were wealthy and educated (Soderlund, 2022). The pamphlet quickly became popular, selling more than 100,000 copies (Soderlund, 2022), and it helped to spread revolutionary ideals to a broader audience. In a time of such division, Common Sense helped to broaden popular support for independence, and it represented a significant turning point in the American Revolution."
     ],
-    diary: [],
+    diary: [
+      "Thomas Paine has released a pamphlet entitled Common Sense, and its contents have brought me considerable uneasiness. Mr. Paine urges the colonies to separate from our mother country and speaks against the very institution of His Majesty. I had hoped that despite the recent bloodshed, some means of reconciliation might be found. I fear that such hopes are now impossible, and that my neighbors will now undoubtedly push for Mr. Paine’s arguments to be enacted. What began simply as a dispute over our rights as British subjects hath now become a question of whether we shall be British subjects at all.",
+      "I cannot deny Parliament’s conduct hath given us cause for complaints, yet I do not believe that independence is the solution to our troubles. Mr. Paine promises that separation shall yield us advantages, but I wonder how the colonies might defend themselves against Britain’s strength. My business hath long depended upon our relationship with the British and the connections built through years of lawful trade. Shall we now cast these ties aside in the expectation that prosperity would follow simply because we govern ourselves?",
+      "Mr. Paine’s language is plain, and I fear that it shall persuade those who have yet to choose a side in this most awful conflict. My neighbors have urged me to read Mr. Paine’s pamphlet, but now, I am simply filled with concern for my family and I as our faithfulness to His Majesty hath rendered us endangered. I pray that these colonies do consider the dangers of separation before blindly following Mr. Paine’s promises."
+    ],
     documents: [
       {
         title: "Candidus, Plain Truth; Addressed to the Inhabitants of America (1776)",
