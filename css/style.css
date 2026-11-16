@@ -22,6 +22,16 @@
   --wood-2:       #3a2416;
   --wood-3:       #22150c;
 
+  /* Wall: Continental blue damask, lit by candlelight */
+  --wall-1:       #1b2b45;
+  --wall-2:       #14223a;
+  --wall-3:       #0c1626;
+  --gilt:         rgba(205, 172, 98, 0.16);
+
+  /* Damask lattice: an ogee diamond with a small floral boss, as on
+     18th-century wallpaper and silk hangings */
+  --damask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='180' viewBox='0 0 120 180'%3E%3Cg fill='none' stroke='%23cdac62' stroke-opacity='0.16' stroke-width='1.4'%3E%3Cpath d='M60 0C78 22 78 44 60 66C42 44 42 22 60 0Z'/%3E%3Cpath d='M60 114C78 136 78 158 60 180C42 158 42 136 60 114Z'/%3E%3Cpath d='M0 90C18 112 18 134 0 156C-18 134 -18 112 0 90ZM120 90C138 112 138 134 120 156C102 134 102 112 120 90Z'/%3E%3Cpath d='M0 -90C18 -68 18 -46 0 -24M120 -90C138 -68 138 -46 120 -24'/%3E%3Cpath d='M60 66C78 78 96 84 120 90C96 96 78 102 60 114C42 102 24 96 0 90C24 84 42 78 60 66Z'/%3E%3C/g%3E%3Cg fill='%23cdac62' fill-opacity='0.18'%3E%3Ccircle cx='60' cy='90' r='5'/%3E%3Ccircle cx='60' cy='33' r='3'/%3E%3Ccircle cx='0' cy='0' r='3'/%3E%3Ccircle cx='120' cy='0' r='3'/%3E%3Ccircle cx='0' cy='180' r='3'/%3E%3Ccircle cx='120' cy='180' r='3'/%3E%3Ccircle cx='60' cy='147' r='3'/%3E%3C/g%3E%3C/svg%3E");
+
   /* Wax seal */
   --wax:          #8b1c1c;
   --wax-dark:     #5e0f0f;
@@ -46,14 +56,15 @@ body {
   font-family: var(--font-print);
   font-size: 18px;
   line-height: 1.6;
-  /* Dark walnut writing desk */
-  background-color: var(--wood-1);
+  /* Continental-blue damask wall, warmed by candlelight from above */
+  background-color: var(--wall-2);
   background-image:
+    radial-gradient(ellipse 80% 55% at 50% 0%, rgba(214, 160, 70, 0.20), transparent 70%),
+    radial-gradient(ellipse at center, transparent 55%, rgba(0, 0, 0, 0.55) 100%),
+    var(--damask),
     var(--grain),
-    repeating-linear-gradient(92deg,
-      rgba(0,0,0,0.00) 0px, rgba(0,0,0,0.10) 3px,
-      rgba(255,255,255,0.02) 7px, rgba(0,0,0,0.00) 12px),
-    linear-gradient(180deg, var(--wood-2), var(--wood-1) 40%, var(--wood-3));
+    linear-gradient(180deg, var(--wall-1), var(--wall-2) 45%, var(--wall-3));
+  background-size: auto, auto, 120px 180px, auto, auto;
   background-attachment: fixed;
 }
 
@@ -220,8 +231,8 @@ a:hover { color: var(--ink); }
   flex-wrap: wrap;
   gap: 0.4em 1.2em;
   padding: 0.6em 1em;
-  background: rgba(34, 21, 12, 0.92);
-  border-bottom: 1px solid rgba(242, 227, 191, 0.25);
+  background: rgba(10, 18, 32, 0.94);
+  border-bottom: 1px solid rgba(205, 172, 98, 0.35);
   font-family: var(--font-caps);
   letter-spacing: 0.08em;
 }
