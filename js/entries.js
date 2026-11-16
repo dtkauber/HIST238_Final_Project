@@ -395,14 +395,18 @@ const JOURNAL_ENTRIES = [
   {
     id: "treason-trials",
     date: "1778-11-04",
-    dateLabel: "[Date] November, 1778",
-    title: "[Entry title]",
+    dateLabel: "4th November, 1778",
+    title: "A Deadly Warning",
     event: "Loyalists Abraham Carlisle and John Roberts are hanged for treason",
     context: [
       "After Patriot authorities reclaimed Philadelphia in 1778, they began to investigate Philadelphians who were suspected of aiding the British forces during their occupation of the city (Duffy, 2016). Among the accused were Abraham Carlisle, a Quaker carpenter who served under the British as a gatekeeper, and John Roberts, a Quaker mill owner who was believed to have assisted with British military operations (Duffy, 2016). Carlisle was responsible for granting passage to those traveling through British lines while Roberts was accused of guiding British forces and convincing individuals to join the British ranks (Duffy, 2016). Both men were arrested and charged with treason for their cooperation with the British (Duffy, 2016).",
       "On November 4, 1778, Carlisle and Roberts were hanged in Philadelphia after being convicted of treason (Duffy, 2016; Galloway, 1931). The executions sparked massive controversy as Philadelphia residents petitioned for the men to be granted pardons. However, Pennsylvania’s government refused, and the men were executed despite these appeals (Duffy, 2016). Carlisle and Roberts were among the few individuals executed for treason in Pennsylvania during the war, showing just how harsh their punishment truly was. Their deaths became a symbol of the dire consequences associated with supporting the British in the war, and gave Loyalists yet another reason to fear for their safety in Philadelphia following the executions."
     ],
-    diary: [],
+    diary: [
+      "I am deeply disturbed by today's events. John Roberts and Abraham Carlisle were hanged for treason, and I find myself concerned about the fate that lies ahead. Mr. Carlisle served as a gatekeeper during the British occupation whilst Mr. Roberts was accused of assisting His Majesty’s forces during their time here. The authorities treated their actions as crimes against the state of Pennsylvania, yet I do not condemn them at all. What I believe to be duty is now punished as treason.",
+      "I had hoped that the appeals made on their behalf would force the government to show them mercy, yet their deaths have demonstrated that even the pleas of our neighbors cannot save us from the fate they assign us. I think of the families these gentlemen left behind and wonder how they will endure such grief. Though I may not have assisted the British as they had, I fear that my conduct during the occupation may invite suspicion unto my home. Shall my neighbors remember the satisfaction with which I welcomed His Majesty’s troops?",
+      "This evening, I looked upon my household with renewed anxiety. I have tried to protect my family throughout these trying times, yet my silence offers little protection when others may interpret my past actions against me. I must be cautious in how I speak of these executions, though the distress I feel makes the news no easier to bear. I pray that Mr. Roberts and Mr. Carlisle may find the peace they were denied in this city, and that their families shall remain sheltered from their fate."
+    ],
     documents: [
       {
         title: "Diary of Grace Growden Galloway (1778–79)",
