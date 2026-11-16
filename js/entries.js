@@ -134,14 +134,18 @@ const JOURNAL_ENTRIES = [
   {
     id: "tea-ship",
     date: "1773-12-27",
-    dateLabel: "[Date] December, 1773",
-    title: "[Entry title]",
+    dateLabel: "27th December, 1773",
+    title: "Upon the Polly's Rejection",
     event: "The tea ship Polly is turned back from Philadelphia",
     context: [
       "In May of 1773, British Parliament passed the Tea Act to help the struggling British East India Company sell tea to the American colonies (Soderlund, 2022). Although the legislation lowered the price of legally imported tea to a point where it was cheaper than smuggled tea from the Netherlands, it maintained the existing tax imposed under the Townshend Acts, causing many colonists to view this as another attack by the British Parliament on the rights of colonists (Soderlund, 2022). Opposition to the Tea Act quickly spread throughout the colonies, and on December 16th, 1773, the opposition culminated in the Boston Tea Party (Soderlund, 2022).",
       "Nine days later, the British tea ship Polly, commanded by Captain Samuel Ayres, arrived in Delaware Bay carrying tea that was meant for Philadelphia (Committee for Tarring and Feathering, 1773). Upon learning of this ship’s arrival in the bay, local opponents of the Tea Act organized to prevent the cargo from reaching its destination. In a public meeting, opponents of the ship’s arrival resolved that the tea could not be unloaded in Philadelphia, and that the Polly must turn around (Committee for Tarring and Feathering, 1773; Pitock, 2017). Ayres complied with the meeting’s decision, and the Polly departed with all of its cargo."
     ],
-    diary: [],
+    diary: [
+      "This day hath brought me a new cause for concern as my fellow Philadelphians have resolved that the tea aboard the Polly shall not land in our harbor. Captain Ayres must return with his cargo, and many of my neighbors celebrate this as a triumph in their quest for colonial liberty. I, however, find little comfort in watching such a vessel be turned away from our port. I feared that the recent destruction of tea in Boston would encourage new troubles here, and with this new agreement, my fears have been realized.",
+      "I have read the notices addressed to the Delaware pilots, and I am terrified at their threats of tarring and feathering. How may a man conduct his business when his pursuit of lawful trade render him exposed to cruel violence? They speak of preserving our liberties, yet they threaten any pilot who assists the captain in performing his duties. I am thankful that this cargo did not experience the same fate as that in Boston, though I cannot see this agreement made in fear as any cause for elation.",
+      "I must now wonder whether other goods might soon provoke similar hostilities. My livelihood depends upon ships arriving safely and merchants being permitted to perform their duties, but if a crowd may determine what enters this city, what assurance have I that my own cargo shall not meet the same fate? I have learned not to express my concerns too openly as my neighbors remain pleased with their “success”, but I pray that this disorder may end soon without bloodshed, and that our attachment to His Majesty may survive amongst these hostilities."
+    ],
     documents: [
       {
         title: "To the Delaware Pilots (1773)",
