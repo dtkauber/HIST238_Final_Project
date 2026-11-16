@@ -107,15 +107,19 @@ const JOURNAL_ENTRIES = [
   },
   {
     id: "boston-massacre",
-    date: "1770-03-05",
-    dateLabel: "[Date] March, 1770",
-    title: "[Entry title]",
+    date: "1770-03-19",
+    dateLabel: "19th March, 1770",
+    title: "Dreadful Accounts Arrive From Boston",
     event: "British soldiers fire on a crowd in Boston (the Boston Massacre)",
     context: [
       "Following the passage of the Townshend Acts in 1767, the British sent around 2,000 British soldiers to Boston, Massachusetts in 1768 to enforce the law in a hub of colonial opposition and protests. Unfortunately, the presence of the British soldiers did not quell the opposition to British taxation, but it increased hostilities among the city’s inhabitants who viewed the soldiers as a direct threat to their freedom. Disputes between soldiers and civilians became common, creating a hostile environment throughout Boston.",
       "In March of 1770, tensions erupted in the city when a crowd of colonists confronted a British soldier guarding the Custom House in Boston. Amidst the shouting, insults, and objects being thrown at the soldiers, British troops fired into the crowd, killing five colonists. The circumstances surrounding the shooting remained disputed as eyewitnesses provided conflicting accounts of what transpired, particularly surrounding whether Captain Preston ordered his soldiers to fire or whether they acted independently (Zabin, 2020). Nonetheless, the incident, which became known as the Boston Massacre, further increased colonial resentment towards the British. Patriot leaders used this event as propaganda to portray the British soldiers as aggressors, strengthening opposition to Britain’s military presence in the colonies (Revere, 1770)."
     ],
-    diary: [],
+    diary: [
+      "Dreadful accounts have reached me from Boston, and I find myself greatly disturbed by the bloodshed that hath been reported. His Majesty’s soldiers fired upon a crowd of my fellow colonists, and killed five of His Majesty’s subjects. Some believe that the soldiers were cruel and aggressive towards the crowd, whilst others claim that His Majesty’s soldiers were provoked with taunts and violence. I grieve at the loss of my fellow colonists, yet I cannot know who is at fault.",
+      "My faithfulness to the Crown does not excuse the taking of these lives, and if the soldiers acted unlawfully, I pray that they are punished for their conduct. However, I can neither support those who threatened the King’s soldiers, nor those whose violence may very well have caused such a horrifying scene. I fear that the anger in our colonies is becoming absolute, and that soon, such anger shall make peace between His Majesty and his subjects impossible.",
+      "I am concerned that these reports shall only deepen this anger spreading through the colonies. Just today was I speaking with a fellow merchant about the incident, and when I expressed my doubts about the shooting, he asked whether I believed the dead deserved such a horrid fate. I replied that I merely wished to know the truth, but this response did not seem satisfactory. Must every answer now be taken as an attack against one’s neighbor? I sincerely hope that justice may come to those deserving of it, though I fear that the blood spilled in Boston shall soon bring new troubles to Philadelphia."
+    ],
     documents: [
       {
         title: "Paul Revere, The Bloody Massacre Perpetrated in King Street (1770)",
