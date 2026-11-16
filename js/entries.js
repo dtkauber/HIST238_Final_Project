@@ -333,14 +333,18 @@ const JOURNAL_ENTRIES = [
   {
     id: "occupation",
     date: "1777-09-26",
-    dateLabel: "[Date] September, 1777",
-    title: "[Entry title]",
+    dateLabel: "26th September, 1777",
+    title: "Relief at Last - His Majesty Hath Returned",
     event: "The British Army enters and occupies Philadelphia",
     context: [
       "After the Declaration of Independence in 1776, the British looked to suppress the rebellion and regain control of their colonies. In 1777, British General William Howe started a campaign to capture Philadelphia, the location of the Continental Congress and a center of the colonies’ resistance (Soderlund, 2022). Howe’s forces defeated General George Washington’s army at the Battle of Brandywine, granting the British a path to Philadelphia (Soderlund, 2022). As the British approached, the Continental Congress and many Patriots fled the city out of fear of living under British occupation (Soderlund, 2022).",
       "In late September of 1777, the British marched into Philadelphia and took control of the city (Soderlund, 2022). While many Patriots fled, the Loyalists remaining in the city welcomed the arrival of British forces, and hoped that their occupation would restore order and bring the rebellion to a close. However, even though capturing Philadelphia represented a major victory for Britain, the Continental Army remained intact, allowing the colonies to continue their resistance (Soderlund, 2022)."
     ],
-    diary: [],
+    diary: [
+      "This day, His Majesty’s troops entered Philadelphia, and for the first time in many months, I felt some relief. I watched as the soldiers passed through the streets without opposition and I now hope that order might be restored. Those who have spoken so arrogantly against the Crown must now fear the presence of his army. Perhaps my neighbors shall no longer threaten my allegiance to His Majesty.",
+      "I pray that this newly found protection shall permit me to conduct my business without being required to deny my allegiance. The recent demand to renounce His Majesty weighed heavily upon my conscience, and I hope that this pressure may now cease. This evening, I spoke more freely within my household than I have in quite a while.",
+      "My elation is immeasurable, but I must not mistake the arrival of his troops as an end to our troubles. General Washington’s army still remains, and the fighting will continue, but for now, I shall allow myself peace and hope that Philadelphia’s return to its rightful ruler may bring us closer to reconciliation."
+    ],
     documents: [
       {
         title: "Elizabeth Drinker, Journal entry for September 26, 1777",
@@ -359,14 +363,18 @@ const JOURNAL_ENTRIES = [
   {
     id: "evacuation",
     date: "1778-06-18",
-    dateLabel: "[Date] June, 1778",
-    title: "[Entry title]",
+    dateLabel: "18th June, 1778",
+    title: "The King's Troops Withdraw",
     event: "The British evacuate Philadelphia; the Patriots return",
     context: [
       "After capturing the city in September 1777, the British occupied Philadelphia for roughly nine months (Soderlund, 2022). However, despite controlling the center of the colonial rebellion, the British had failed to eliminate George Washington’s Continental Army, allowing the rebellion to continue (Soderlund, 2022). Additionally, with the American victory at Saratoga in October 1777, the French entered the war on the side of the Americans in 1778 (Soderlund, 2022). With impending French military and naval involvement, the British reconsidered their strategy, deciding to concentrate their forces in New York City instead of continuing their occupation of Philadelphia (Soderlund, 2022).",
       "On June 18, 1778, the British under General Henry Clinton evacuated Philadelphia and began their trek towards New York City (Soderlund, 2022). Fearing persecution from returning Patriot forces, thousands of Loyalists fled Philadelphia, seeking refuge with British forces in New York (Duffy, 2016). After the British evacuation, Patriot forces regained control of Philadelphia, and the Continental Congress was able to resume meeting normally. For the Loyalists who stayed in Philadelphia, their safety was put at great risk as they would once again be vulnerable to persecution from the returning Patriots (Duffy, 2016)."
     ],
-    diary: [],
+    diary: [
+      "On this day, His Majesty’s troops have departed Philadelphia, and the protection I so joyfully welcomed hath now disappeared. American troops have entered the city once more, and I fear that those who remain faithful to the Crown may now answer for their loyalty. I had hoped that the British presence would bring an end to this horrid rebellion, yet their recent departure now leaves our safety more uncertain than ever.",
+      "Some who share my allegiances have chosen to leave with His Majesty’s troops, and I wonder whether I am now foolish to remain. My household and livelihood still bind me to Philadelphia, and I cannot abandon the connections upon which my family depends. Yet what use are these possessions if their presence in our lives renders us vulnerable? I fear that my relief at the soldiers’ arrival shall now be used against me.",
+      "For the present, I shall remain and conduct my life as quietly as possible. I have sought only to preserve my livelihood and remain faithful to the King. I pray that my neighbors may now permit this, though I fear their renewed power may bring demands that my silence will not satisfy."
+    ],
     documents: [
       {
         title: "Grace Growden Galloway, Diary entries for June 17–19, 1778",
