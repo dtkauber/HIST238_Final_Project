@@ -480,15 +480,19 @@ const JOURNAL_ENTRIES = [
   },
   {
     id: "peace",
-    date: "1783-09-03",
-    dateLabel: "[Date] September, 1783",
-    title: "[Entry title]",
+    date: "1783-11-15",
+    dateLabel: "15th November, 1783",
+    title: "An Uncertain Peace",
     event: "The Treaty of Paris ends the war",
     context: [
       "After their defeat at the Battle of Yorktown in October 1781, support in Britain for continuing the Revolutionary War effort was dwindling (Peplow, 2013). Although the war did continue through smaller battles in the West Indies and other parts of North America, Cornwallis’ defeat caused British leaders to negotiate for peace (Peplow, 2013). Negotiations between British and American representatives began in Paris in 1782, and the two sides reached a preliminary agreement in November of the same year (Paris Peace Treaty, 1783).",
       "On September 3, 1783, representatives from both sides officially signed the Treaty of Paris, and the American Revolution formally ended (Paris Peace Treaty, 1783). In the treaty, the British officially recognized the United States as an independent nation, and recognized US territory extending westward to the Mississippi River (Paris Peace Treaty, 1783; Soderlund, 2022). The treaty also protected Loyalists as Congress agreed to prevent any further persecution for their allegiance during the Revolution and recommend that state governments restore Loyalist property (Paris Peace Treaty, 1783). However, this restoration was not guaranteed, and as a result, many of the remaining Loyalists who decided not to reintegrate into American life fled to Britain or one of its remaining colonies (Duffy, 2016)."
     ],
-    diary: [],
+    diary: [
+      "News of the definitive treaty signed at Paris hath confirmed peace between Britain and these United States. His Majesty hath granted them their independence and relinquished his claim to govern them. While I am grateful for the end of this most dreadful war, I fear what is yet to come. This settlement hath left the country in which I live separated from the Crown, and I must now consider what place my livelihood may have within it.",
+      "The treaty promises those who supported the British shall face no further prosecutions or confiscations for their conduct during the war, and that Congress must recommend that the states restore confiscated properties. While I am grateful that those who suffered during this war may now receive some good news, I fear that these provisions still render them vulnerable to dangers from their neighbors, and uncertainty about the future of their previously confiscated property. The end of arms cannot restore bonds broken through years of suspicion and harassment.",
+      "I have long wished for peace upon this land, yet I never thought that it would force me to choose between faithfulness to His Majesty and security in my own home. I must now decide whether I seek a future here or depart for a place under the protection of His Majesty. Leaving this land would cost me the connections upon which my livelihood depends, but remaining would require me to place trust in those who cannot put their trust in me. I pray that my family may at last find tranquility, though I fear that peace between the nations hath not brought peace upon my household."
+    ],
     documents: [
       {
         title: "The Definitive Treaty of Peace (Treaty of Paris), 3 September 1783",
@@ -523,9 +527,9 @@ const JOURNAL_ENTRIES = [
   },
   {
     id: "exile",
-    date: "1784-08-06",
-    dateLabel: "[Date], 1784",
-    title: "[Entry title]",
+    date: "1784-06-30",
+    dateLabel: "30th June, 1784",
+    title: "Farewell Philadelphia",
     event: "Loyalists leave the United States after the war",
     context: [
       "Following the conclusion of the Revolutionary War in 1783, Loyalists faced uncertainty about their future in the newly formed United States. Throughout the Revolution, Loyalists were subject to heavy persecution including violence, imprisonment, and confiscation of their property (DuVal, 2026a; Duffy, 2016). Although the Treaty of Paris promised an end to further persecutions and confiscations, many Loyalists remained concerned about their safety and their ability to reintegrate into the newly independent country (Paris Peace Treaty, 1783; Duffy, 2016). As a result, thousands of Loyalists remaining in the colonies at the end of the war decided to flee from the United States and pursue new lives under British rule (Duffy, 2016).",
