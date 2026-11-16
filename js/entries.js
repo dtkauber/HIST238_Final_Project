@@ -425,14 +425,18 @@ const JOURNAL_ENTRIES = [
   {
     id: "yorktown",
     date: "1781-10-24",
-    dateLabel: "[Date] October, 1781",
-    title: "[Entry title]",
+    dateLabel: "24th October, 1781",
+    title: "Surrendering My Hope",
     event: "News of Cornwallis's surrender at Yorktown reaches Philadelphia",
     context: [
       "By 1781, the Revolutionary War had been ongoing for more than six years. In the South, British General Charles Cornwallis led military campaigns that resulted in significant casualties at skirmishes like the Battle of Cowpens and the Battle of Guilford Courthouse (DuVal, 2026d). Following such costly campaigns, Cornwallis settled in Yorktown, Virginia as he awaited reinforcements from the British troops in New York. However, over 16,000 combined American and French forces under George Washington and Comte de Rochambeau marched to Virginia and surrounded Cornwallis (DuVal, 2026d). At the same time, the French navy gained control of the Chesapeake Bay, preventing the British from assisting Cornwallis by sea (DuVal, 2026d).",
       "On October 19, 1781, after a multi-week siege filled with bombardment from the American and French forces, Cornwallis surrendered (Articles of Capitulation, 1781). With the British surrender, thousands of British soldiers became prisoners of war (Articles of Capitulation, 1781), a devastating blow to their military campaign in North America. Although the war did not immediately end after Cornwallis’ surrender, fighting between the British and the American colonies mostly came to a close and British leaders began pursuing peace negotiations."
     ],
-    diary: [],
+    diary: [
+      "News hath reached Philadelphia that Lord Cornwallis hath surrendered his army at Yorktown to the combined Americans and Frenchmen. My neighbors rejoice at the news, whilst I struggle to comprehend such a dreadful defeat. I had continued to hope that His Majesty’s forces might restore British authority in the south, but I now realize that the victory upon which I had placed my hope may never come.",
+      "I know not whether this surrender shall end the fighting, yet I cannot dismiss what it may mean for His Majesty’s subjects in these colonies. If Britain cannot prevail, what protection shall remain for us? I remember the departure of the troops from Philadelphia and the execution of Carlisle and Roberts that followed. What may come out of this surrender? How can we remain hopeful of British security if they cannot protect themselves? I fear that I am left with almost no means to defend my family and my livelihood.",
+      "This evening, I considered what remains for me in this country in which I may no longer have a place. I have lived amongst these people for so long, but their celebrations remind me how differently we regard this land’s future. Must I leave this place I have called home to receive His Majesty’s protection? The thought of leaving these lands fills me with sorrow, but I know not what more is left for my family in this country. I pray that we may find peace and that our suffering may finally end without giving up our lives."
+    ],
     documents: [
       {
         title: "Articles of Capitulation, Yorktown, 19 October 1781",
