@@ -174,14 +174,18 @@ const JOURNAL_ENTRIES = [
   {
     id: "continental-congress",
     date: "1774-09-05",
-    dateLabel: "[Date] September, 1774",
-    title: "[Entry title]",
+    dateLabel: "5th September, 1774",
+    title: "A Meeting at Carpenters' Hall",
     event: "The First Continental Congress meets at Carpenters' Hall",
     context: [
       "Following the Boston Tea Party in December of 1773, the British Parliament passed what colonists called the Intolerable Acts, a series of laws meant to punish Massachusetts for its actions (DuVal, 2026a). Among these laws, Boston Harbor was closed, and restrictions were placed on Massachusetts’ colonial government, measures intended to discourage further resistance from the Massachusetts colony (Soderlund, 2022). However, these measures managed to increase tensions between Britain and its American colonies, causing colonial leaders to begin organizing a meeting to coordinate a response to Parliament’s actions (DuVal, 2026a).",
       "On September 5, 1774, delegates from twelve of the thirteen colonies gathered in Philadelphia for the First Continental Congress (DuVal, 2026a). Although the delegates differed over the appropriate response to British policies, they wanted to protect their rights as British subjects in response to Parliament’s recent actions (DuVal, 2026b). During the multi-week meeting, the Continental Congress adopted the Continental Association to establish restrictions on trade with Great Britain, and prepared a petition to King George III to have their grievances heard (DuVal, 2026b). Although independence was not the goal of the First Continental Congress, it certainly represented a major step in the colonies’ organized resistance to the British."
     ],
-    diary: [],
+    diary: [
+      "On this day, delegates from His Majesty’s colonies have assembled at Carpenters’ Hall to consider their grievances against Parliament. Their arrival hath been cause for much conversation throughout the city, and my neighbors seemingly place great faith in their deliberation. I wish to share such certainty, yet I grow concerned at what this gathering may bring. I hope that these gentlemen shall find a means to restore harmony with our mother country, yet I fear that their meeting may encourage further challenge to Britain’s authority.",
+      "Their meeting results from the recent closure of Boston’s port, and though I pity the merchants who must now suffer without work, I cannot approve of the destruction of His Majesty’s tea in the harbor. Were Philadelphia subject to such restrictions, I do not think my household could endure such struggles. Nevertheless, I fear that this new opposition to the Crown may invite further punishment, and that my livelihood may once again become entangled in the dispute. A fellow merchant assures me that the colonies must act together, but what sacrifices must we endure?",
+      "I sincerely hope that this delegation may persuade His Majesty to hear our concerns and restore peace to these colonies. Surely may we defend our rights whilst remaining faithful subjects of the Crown? I believe this to be the case, but others find themselves increasingly suspicious of such. I pray that this delegation does not make any decisions on behalf of these colonies that we may end up regretting, and that they find a way to renew our relationship with our mother country."
+    ],
     documents: [
       {
         title: "The Bostonian's Paying the Excise-Man, or Tarring & Feathering (1774)",
